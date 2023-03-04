@@ -8,10 +8,13 @@ export default function Discover() {
         setUsers()
     })
 
-    return
+    return (
         <div>
             <div>
-                {users.map((u) =>)}
+                {users.map((u) => (
+                    <DiscoverCard />
+                ))}
             </div>
         </div>
-}
+    )
+};
