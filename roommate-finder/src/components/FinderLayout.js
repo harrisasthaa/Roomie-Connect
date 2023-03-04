@@ -7,8 +7,7 @@ function FinderLayout(props) {
     return <div>
         <Navbar>
             <Container>
-                <h1>Navbar</h1>
-                <Nav className="me-auto">
+                <Nav>
                         <Nav.Link as={Link} to="/discover">Discover</Nav.Link>
                         <Nav.Link as={Link} to="/profile">Profile</Nav.Link>
                     </Nav>
