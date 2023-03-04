@@ -5,7 +5,6 @@ import FinderApp from './components/FinderApp';
 function App() {
   return (
     <>
-      <h1>Test</h1>
       <FinderApp>
 
       </FinderApp>
