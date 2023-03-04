@@ -9,6 +9,7 @@ export default function Discover() {
         first_name: "Chase",
         last_name: "Mathis",
         age: 20,
+        gender: "Male",
         school: "University of Wisconsin - Madison",
         city: "Madison",
         state: "Wisconsin",
@@ -18,6 +19,7 @@ export default function Discover() {
         user_id: 1,
         first_name: "Chris",
         last_name: "Plagge",
+        gender: "Male",
         age: 21,
         school: "University of Wisconsin - Madison",
         city: "Madison",
@@ -37,6 +39,7 @@ export default function Discover() {
                         key={u.user_id}
                         first_name={u.first_name}
                         last_name={u.last_name}
+                        gender={u.gender}
                         age={u.age}
                         school={u.school}
                         city={u.city}
