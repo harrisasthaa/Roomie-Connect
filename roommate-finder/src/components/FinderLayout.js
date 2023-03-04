@@ -8,9 +8,9 @@ function FinderLayout(props) {
         <Navbar>
             <Container>
                 <Nav>
-                        <Nav.Link as={Link} to="/discover">Discover</Nav.Link>
-                        <Nav.Link as={Link} to="/profile">Profile</Nav.Link>
-                    </Nav>
+                    <Nav.Link as={Link} to="/profile">Profile</Nav.Link>
+                    <Nav.Link as={Link} to="/discover">Discover</Nav.Link>
+                </Nav>
             </Container>
         </Navbar>
         <Outlet />
