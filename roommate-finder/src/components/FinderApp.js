@@ -5,14 +5,17 @@ import Discover from './Discover';
 import Profile from './Profile';
 
 function FinderApp(props) {
-    return <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<FinderLayout />}></Route>
-            <Route index element={<Discover></Discover>}></Route>
-            <Route path="/discover" element={<Discover />}></Route>
-            <Route path="/profile" element={<Profile />}></Route>
-        </Routes>
-    </BrowserRouter>
+    return( 
+    <>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<FinderLayout />}>
+                    <Route path="/discover" element={<Discover />}></Route>
+                    <Route path="/profile" element={<Profile />}></Route>
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    </>);
 }
 
 export default FinderApp;
