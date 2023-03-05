@@ -209,7 +209,7 @@ def update_match(email1, id2, match_state):
     cursor.execute(f"SELECT match FROM Matches WHERE (first_id={id1} AND second_id={id2})")
     match = cursor.fetchone()
     if match:
-        id1 = id1[0]
+        match = match[0]
         first = True
     else:
         return "No Match Found"
@@ -218,7 +218,7 @@ def update_match(email1, id2, match_state):
     cursor.execute(f"SELECT match FROM Matches WHERE (first_id={id2} AND second_id={id1})")
     match = cursor.fetchone()
     if match:
-        id1 = id1[0]
+        match = match[0]
         first = False
     else:
         return "No Match Found"
