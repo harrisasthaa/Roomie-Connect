@@ -121,11 +121,12 @@ def get_discover(email):
              FROM Display D, Compare C\
              WHERE D.id = C.id\
              AND D.id={match_id[0]}")
-        matches.append(dict(zip(keys,c.fetchall())))
+        # print(dict(zip(keys,c.fetchall()[0])))
+        matches.append(dict(zip(keys,c.fetchall()[0])))
     c.connection.close()
     return matches
 
-# get_matches("dummyemail@gmail.com")
+get_discover("dummyemail@gmail.com")
 
 # adds new user to database and finds matches with existing users
 def create_user(user_data):
@@ -153,7 +154,7 @@ def create_user(user_data):
             cursor.execute(f"INSERT INTO Matches (first_id, second_id, compatability, match) VALUES ({id}, {match_id}, {compatability}, 0)")
     connection.commit()
     connection.close()
-    return
+    return "NICE"
     
 # user_data= {"first_name": "Johnny", "last_name": "Appleseed","full_time":1, "phone":"123-456-7890", "age":21, "university":"Harvard University", "email":"dummyemail@gmail.com", "about_me":"Hi This is about me.","city_state":"Los Angeles, CA", "gender":0, "gender_p":0, "interest1":"Reading", "interest2":"Writing", "interest3":"Hiking", "major":"Accounting", "friend":0, "price_lower":1500, "price_upper":2000, "quiet":1, "quiet_p":1}
 # create_user(user_data)
