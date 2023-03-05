@@ -45,10 +45,11 @@ for i in range(200):
     full_time = random.randint(0, 1)
     interest_user = random.sample(interests, 3)
     interest_user_string =interest_user[0]
+    img_link = "bob is great."
     for i in range(1,len(interest_user)):
         interest_user_string +=  "," + interest_user[i]
     email = f"{first_name}123@university.edu"
-    display_line = f"{unique_id}|{first_name}|{last_name}|{phone}|{age}|{school}|{email}|{descriptions}"
+    display_line = f"{unique_id}|{first_name}|{last_name}|{phone}|{age}|{school}|{email}|{descriptions}|{img_link}"
     display_file.append(display_line)
     comparing_line = f"{unique_id}|{usa_cities_states_selected}|{full_time}|{gender}|{gender_p}|{interest_user[0]}|{interest_user[1]}|{interest_user[2]}|{major}|{friend_p}|{price_lower}|{price_higher}|{quiet}|{quiet_p}"
     comparing_file.append(comparing_line)

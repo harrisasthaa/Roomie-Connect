@@ -6,11 +6,16 @@ import numpy
 def match_algorithm(user_data, df):
     print(df)
     print(user_data)
-    #the data in df has been filter based on location and gender 
-    w1 = .3
-    w2 = .4
-    w3 = .5
-    w4 = .2
+    #the data in df has been filter based on location and gender and full tim e
+    #friend
+    w1 = .42
+    #quiet
+    w2 = .55
+    #makor
+    w3 = .11
+    #interests 
+    w4 = .3
+    #moneyyy 
     w5 = .9
     
     df['compatibility'] = 0
@@ -32,28 +37,22 @@ def match_algorithm(user_data, df):
                     
     ## solving for price range matching 
     for i in range(len(df)):
-        print("friend")
-        print(df.iloc[i]['friend'])
-        print(type(df.iloc[i]['friend']))
-        print(type(user_data['friend']))
-        print(user_data['friend'])
+        
 
         if df.iloc[i]['friend'] == numpy.int64(user_data['friend']):
-            print("enetered")
+           
             df.loc[i, 'compatibility'] += w1*1
             
         
     ##check the quiet preference --- all or nothing 
         if df.iloc[i]['quiet'] == user_data['quiet_p']:
-            print("enetered1")
+           
             df.loc[i, 'compatibility'] += w2*1
         
         if df.iloc[i]['major'] == user_data['major']:
             print("eneterf2")
             df.loc[i, 'compatibility'] += w3*1
-        
-        if df.iloc[i]['full_time'] == user_data['full_time']:
-            df.loc[i, 'compatibility'] += w3*1
+ 
         
         overlap = (min(df.iloc[i]['price_upper'], user_data['price_lower']) - max(df.iloc[i]['price_lower'], df.iloc[i]['price_upper']))/(user_data['price_upper']-user_data['price_lower'])
         df.loc[i, 'compatibility'] += (overlap*w5)

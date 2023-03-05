@@ -33,6 +33,7 @@ create table Display(
     about_me text,
     PRIMARY KEY(id)
     UNIQUE(email)
+    img_link varchar(40)
 );
 
 create table Matches(
