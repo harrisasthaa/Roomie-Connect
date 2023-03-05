@@ -14,10 +14,6 @@ export default function DiscoverCard(props) {
           else return "Male";
      }
 
-     function log() {
-          console.log(props.img_link);
-     }
-
      const pass = () => {
           fetch('http://127.0.0.1:5000/updateMatch', {
                method: 'POST',
