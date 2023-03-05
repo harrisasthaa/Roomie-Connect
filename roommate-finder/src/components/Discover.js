@@ -8,13 +8,13 @@ export default function Discover() {
 
     const [userEmail, setUserEmail] = useContext(UserContext);
 
-    /*const [users, setUsers] = useState([
+    const [users, setUsers] = useState([
         {id: 0,
         first_name: "Chase",
         last_name: "Mathis",
         age: 20,
         gender: 0,
-        school: "University of Wisconsin - Madison",
+        university: "University of Wisconsin - Madison",
         location: "Madison, WI",
         price_lower: 1500,
         price_upper: 2500,
@@ -25,19 +25,19 @@ export default function Discover() {
         last_name: "Plagge",
         gender: 0,
         age: 21,
-        school: "University of Wisconsin - Madison",
+        university: "University of Wisconsin - Madison",
         location: "Madison, WI",
         min_price: 1500,
         max_price: 2500,
         description: "HELJKEOEONGONSGONHGIONHIHNSOHNOHISHNIHHOSNHOHNHOI"}
-        ]);*/
+        ]);
 
-    const [users, setUsers] = useState([]);
+    //const [users, setUsers] = useState([]);
     
+    /*
     useEffect(() => {
-        fetch(`http://127.0.0.1:5000/getDiscover?email=${userEmail}`, {
+        fetch('http://127.0.0.1:5000/request1', {
             method: 'GET',
-            email: userEmail,
             headers: {
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Headers": "*",
@@ -47,14 +47,13 @@ export default function Discover() {
 
         }).then(resp => resp.json())
         .then(resp => {
-            console.log(resp);
             setUsers(resp);
         })
-    }, [])
+    }, [])*/
 
 
     const displayInfo = () => {
-        if(userEmail){
+        if(true){
             return users.map((u) => (
                 <DiscoverCard
                     key={u.id}
@@ -62,7 +61,7 @@ export default function Discover() {
                     last_name={u.last_name}
                     gender={u.gender}
                     age={u.age}
-                    school={u.school}
+                    university={u.university}
                     location={u.location}
                     description={u.description}
                     price_lower={u.price_lower}
@@ -71,9 +70,9 @@ export default function Discover() {
         }
         else{
             return (
-                <Alert variant="danger" className="text-center">
-                    Please fill out your profile before looking at matches
-                </Alert>
+                    <Alert variant="danger" className="text-center">
+                        Please fill out your profile before looking at matches
+                    </Alert>
             )
         }
     }

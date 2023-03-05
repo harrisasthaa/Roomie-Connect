@@ -31,8 +31,8 @@ export default function DiscoverCard(props) {
                               <h2 className="card-title">{props.first_name} {props.last_name}</h2>
                               <p className="card-text">Gender: {mapGender(props.gender)}</p>
                               <p className="card-text">Age: {props.age}</p>
-                              <p className="card-text">School: {props.school}</p>
-                              <p className="card-text">Location: {props.city}, {props.state}</p>                  
+                              <p className="card-text">School: {props.university}</p>
+                              <p className="card-text">Location: {props.location}</p>                  
                               <p className="card-text"><small className="text-muted">${props.price_lower} - ${props.price_upper}</small></p>
                          </div>
                     </div>
