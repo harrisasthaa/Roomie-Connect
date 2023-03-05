@@ -7,10 +7,15 @@ function FinderLayout(props) {
     return <div> 
         <Navbar className="primaryBar" variant="dark">
             <Container>
-                <Nav>
-                    <Nav.Link as={Link} to="/profile">Profile</Nav.Link>
-                    <Nav.Link as={Link} to="/discover">Discover</Nav.Link>
-                </Nav>
+                <Navbar.Brand>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHgWqOMsLkPLLT8Gn08_u_B8OrepfcNOC7Iw&usqp=CAU"/>
+                </Navbar.Brand>
+                <Container>
+                    <Nav>
+                        <Nav.Link as={Link} to="/profile" id="navElement">Profile</Nav.Link>
+                        <Nav.Link as={Link} to="/discover" id="navElement">Discover</Nav.Link>
+                    </Nav>
+                </Container>
             </Container>
         </Navbar>
         <Outlet />

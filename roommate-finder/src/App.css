@@ -25,3 +25,7 @@ h1 {
   border-radius: 25px;
   border-color: rgb(80, 80, 143);
 }
+
+#navElement {
+  font-size: 3rem;
+}
