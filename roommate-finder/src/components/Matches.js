@@ -1,8 +1,8 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
-import DiscoverCard from './DiscoverCard';
+import MatchesCard from './MatchesCard';
 
-export default function Discover() {
+export default function Matches() {
 
     
     const [users, setUsers] = useState([
@@ -12,10 +12,11 @@ export default function Discover() {
         age: 20,
         gender: 0,
         school: "University of Wisconsin - Madison",
-        location: "Madison, WI",
+        location: "New York City, New York",
         price_lower: 1500,
         price_upper: 2500,
-        description: "Hi everyone! I am looking for housing in the NYC area this summer"},
+        description: "Hi everyone! I am looking for housing in the NYC area this summer",
+        phone_number: "763-657-6338"},
         {
         id: 1,
         first_name: "Chris",
@@ -26,7 +27,8 @@ export default function Discover() {
         location: "Madison, WI",
         min_price: 1500,
         max_price: 2500,
-        description: "HELJKEOEONGONSGONHGIONHIHNSOHNOHISHNIHHOSNHOHNHOI"}
+        description: "HELJKEOEONGONSGONHGIONHIHNSOHNOHISHNIHHOSNHOHNHOI",
+        phone_number: "123-456-7890"}
         ]);
 
     //const [users, setUsers] = useState([]);
@@ -51,17 +53,18 @@ export default function Discover() {
     return (
         <div id="discoverBackground">
             {users.map((u) => (
-                <DiscoverCard
+                <MatchesCard
                     key={u.id}
                     first_name={u.first_name}
                     last_name={u.last_name}
                     gender={u.gender}
                     age={u.age}
-                    school={u.school}
                     location={u.location}
-                    description={u.description}
+                    state={u.state}
+                    aboutMe={u.description}
                     price_lower={u.price_lower}
-                    price_upper={u.price_upper}/>
+                    price_upper={u.price_upper}
+                    phone_number={u.phone_number}/>
             ))}
         </div>
     )
