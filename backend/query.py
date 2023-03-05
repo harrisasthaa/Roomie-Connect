@@ -184,8 +184,8 @@ def create_user(user_data):
     if len(matches) > 0:
         for match_id, compatability in matches:
             # add to matches table
-            print(f"INSERT INTO Matches (first_id, second_id, compatability, match) VALUES ({id}, {match_id}, {compatability}, 0)")
-            cursor.execute(f"INSERT INTO Matches (first_id, second_id, compatability, match) VALUES ({id}, {match_id}, {compatability}, 0)")
+            print(f"INSERT INTO Matches (first_id, second_id, compatability, match) VALUES ({id}, {match_id}, {compatability}, 2)")
+            cursor.execute(f"INSERT INTO Matches (first_id, second_id, compatability, match) VALUES ({id}, {match_id}, {compatability}, 2)")
             connection.commit()
     connection.close()
     return "NICE"
