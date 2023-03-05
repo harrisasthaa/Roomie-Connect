@@ -1,6 +1,7 @@
 import React from 'react';
 import {Navbar, Container, Nav} from 'react-bootstrap';
 import {Link, Outlet} from 'react-router-dom';
+import logo from "../bed.png";
 
 function FinderLayout(props) {
 
@@ -8,7 +9,7 @@ function FinderLayout(props) {
         <Navbar className="primaryBar" variant="dark">
             <Container>
                 <Navbar.Brand>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHgWqOMsLkPLLT8Gn08_u_B8OrepfcNOC7Iw&usqp=CAU"/>
+                    <img src={logo} /> 
                 </Navbar.Brand>
                 <Container>
                     <Nav>

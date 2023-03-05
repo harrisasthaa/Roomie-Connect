@@ -1,5 +1,5 @@
 import React from 'react';
-import {Row, Button} from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 
 export default function MatchesCard(props) {
 
@@ -20,7 +20,7 @@ export default function MatchesCard(props) {
                               <img className="img-fluid shadow-2-strong rounded-5" alt="Profile" src="https://media.istockphoto.com/id/639805094/photo/happy-man.jpg?s=612x612&w=0&k=20&c=REx0Usczge4a0soQvp7fQgGCcFMHeORGUTpOIPW-IYA="/>
                          </Row>
                          <Row>
-                              <div className = "text-center">
+                              <div className="text-center">
                                    <p>{props.phone_number}</p>
                               </div>
                          </Row>
