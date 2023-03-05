@@ -1,3 +1,3 @@
 .separator |
-.import user.dat User
-.import interest.dat Interest
+.import display.dat Display
+.import compare.dat Compare
