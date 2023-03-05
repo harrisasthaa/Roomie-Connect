@@ -7,6 +7,7 @@ def generate_random_name(length):
     last_name = ''.join(random.choice(string.ascii_lowercase) for _ in range(length))
     return [first_name.capitalize(),last_name.capitalize()]
 
+
 universities = [    'Harvard University',    'Massachusetts Institute of Technology (MIT)',    'Stanford University',    'California Institute of Technology (Caltech)',    'University of Cambridge',    'University of Oxford',    'ETH Zurich - Swiss Federal Institute of Technology',    'University of Chicago',    'Princeton University',    'Yale University',    'University of California, Berkeley (UCB)',    'Columbia University',    'University of California, Los Angeles (UCLA)',    'University of Michigan-Ann Arbor',    'University of Pennsylvania',    'Cornell University',    'Duke University',    'University of Toronto',    'University of Wisconsin-Madison',    'University of Tokyo']
 uw_madison_majors = [    'Accounting',    'Agricultural Business Management',    'Animal Sciences',    'Applied Mathematics',    'Art',    'Astronomy',    'Biochemistry',    'Biomedical Engineering',    'Chemical Engineering',    'Chemistry',    'Civil Engineering',    'Computer Engineering',    'Computer Science',    'Dance',    'Economics',    'Electrical Engineering',    'Elementary Education',    'English',    'Environmental Sciences',    'Finance',    'Genetics',    'Geography',    'Geology',    'History',    
                      'Industrial and Systems Engineering',    'International Studies',    'Journalism and Mass Communication',    'Kinesiology',    'Linguistics',    'Management and Human Resources',    'Marketing',    'Materials Science and Engineering',    'Mathematics',    'Mechanical Engineering',    'Medical Microbiology and Immunology',    'Music',    'Neurobiology',    'Nursing',    'Nutritional Sciences',    'Philosophy',    'Physics',    'Political Science',    'Psychology',    'Real Estate and Urban Land Economics',    'Sociology',    'Spanish',    'Statistics',    'Theatre and Drama',    'Zoology']
@@ -21,10 +22,11 @@ interests = [    'Reading',    'Writing',    'Hiking',    'Cooking',    'Traveli
 display_file = []
 comparing_file = []
 
-for i in range(50):
+for i in range(200):
     unique_id = i
     first_name = generate_random_name(7)[0]
     last_name = generate_random_name(8)[1]
+    phone = random.randint(1000000001, 9999999999)
     school = universities[random.randint(0,len(universities) -1 )];
     major = uw_madison_majors[random.randint(0,len(uw_madison_majors)) -1];
     descriptions = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget arcu volutpat, convallis elit vel, venenatis magna. Fusce volutpat quam eu enim tincidunt, in ultricies purus lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi interdum, nulla quis ultrices malesuada, enim justo eleifend neque, nec bibendum sem felis sed quam. ";
@@ -43,7 +45,7 @@ for i in range(50):
     for i in range(1,len(interest_user)):
         interest_user_string +=  "," + interest_user[i]
     email = f"{first_name}123@university.edu"
-    display_line = f"{unique_id}|{first_name}|{last_name}|{age}|{school}|{email}|{descriptions}"
+    display_line = f"{unique_id}|{first_name}|{last_name}|{phone}|{age}|{school}|{email}|{descriptions}"
     display_file.append(display_line)
     comparing_line = f"{unique_id}|{usa_cities_states_selected}|{gender}|{gender_p}|{interest_user[0]}|{interest_user[1]}|{interest_user[2]}|{major}|{friend_p}|{price_lower}|{price_higher}|{quiet}|{quiet_p}"
     comparing_file.append(comparing_line)

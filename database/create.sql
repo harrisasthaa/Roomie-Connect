@@ -25,6 +25,7 @@ create table Display(
     id int,
     first_name varchar(15),
     last_name varchar(20),
+    phone int, 
     age int,
     university varchar(35), 
     email varchar(35),  
