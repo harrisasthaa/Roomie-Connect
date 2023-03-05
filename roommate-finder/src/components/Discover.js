@@ -42,11 +42,8 @@ export default function Discover() {
                 "Access-Control-Request-Method": '*'
             }
 
-        }).then(resp => {
-            console.log(resp);
-            return resp.json();
-        }).then(resp => {
-            console.log(resp);
+        }).then(resp => resp.json())
+        .then(resp => {
             setUsers(resp);
         })
     }, [])
