@@ -81,7 +81,7 @@ export default function DiscoverCard(props) {
                     <div className="vr my-5"></div>
                     <div className="card-body col-md-4 mx-3">
                          <h2 className="card-title text-center">About Me</h2>
-                         <p>{props.description}</p>
+                         <p>{props.about_me}</p>
                     </div>
                </div>
           </div>

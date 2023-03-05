@@ -41,7 +41,7 @@ export default function Matches() {
                             age={u.age}
                             university={u.university}
                             location={u.location}
-                            aboutMe={u.description}
+                            about_me={u.about_me}
                             price_lower={u.price_lower}
                             price_upper={u.price_upper}
                             phone_number={u.phone_number}/>

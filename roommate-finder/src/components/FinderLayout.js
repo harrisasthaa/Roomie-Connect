@@ -13,7 +13,7 @@ function FinderLayout(props) {
         <Navbar className="primaryBar" variant="dark">
             <Container>
                 <Navbar.Brand>
-                    <img src={logo} width="30" height = "30"/> 
+                    <img src={logo} className = "d-inline-block align-top" width="30" height = "30"/> 
                 </Navbar.Brand>
                 <Container>
                     <Nav>
