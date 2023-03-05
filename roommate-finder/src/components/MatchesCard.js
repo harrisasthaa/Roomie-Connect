@@ -3,8 +3,6 @@ import { Row } from 'react-bootstrap';
 
 export default function MatchesCard(props) {
 
-     let imageURL; 
-
      function mapGender(gender) {
           if (gender === 3) return "Other";
           else if (gender === 2) return "Non-binary";

@@ -1,9 +1,7 @@
 import React from 'react';
 import {Row, Button} from 'react-bootstrap';
 
-export default function DiscoverCard(props) {
-
-     let imageURL; 
+export default function DiscoverCard(props) { 
 
      function mapGender(gender) {
           if (gender === 3) return "Other";
@@ -12,12 +10,56 @@ export default function DiscoverCard(props) {
           else return "Male";
      }
 
+     function log() {
+          console.log(props.img_link);
+     }
+
+     /*
+     const updateMatches = () => {
+          etch('http://127.0.0.1:5000/getMatches', {
+               method: 'POST',
+               headers: {
+                   "Content-Type": "application/json",
+                   "Access-Control-Allow-Origin": "*",
+                   "Access-Control-Allow-Headers": "*",
+                   "Access-Control-Allow-Methods": "GET",
+                   "Access-Control-Request-Method": '*'
+               },
+               body: JSON.stringify({
+                   "city_state" : location.current.value,
+                   "gender" : ['Male', 'Female', 'Non-Binary', 'Other'].indexOf(gender.current.value),
+                   "gender_p" : ['Male', 'Female', 'Any'].indexOf(genderPref.current.value),
+                   "interest1" : interest1.current.value,
+                   "interest2" : interest2.current.value,
+                   "interest3" : interest3.current.value,
+                   "major" : major.current.value,
+                   "friend" : ['Unimportant', 'Important'].indexOf(friendship.current.value),
+                   "price_lower": parseInt(priceLower.current.value),
+                   "price_upper" : parseInt(priceUpper.current.value),
+                   "quiet" : ['Quiet', 'Loud'].indexOf(quiet.current.value),
+                   "quiet_p" : ['Quiet', 'Loud'].indexOf(quietPref.current.value),
+                   "first_name" : firstName.current.value,
+                   "last_name" : lastName.current.value,
+                   "phone" : phone.current.value,
+                   "age" : age.current.value,
+                   "university" : university.current.value,
+                   "email" : email.current.value,
+                   "about_me" : aboutMe.current.value,
+                   "full_time" : ["Internship", "Full-Time"].indexOf(fullTime.current.value),
+                   "img_link" : profPic.current.value
+               })
+               })
+               .then(resp => {
+                   setUserEmail(email.current.value);
+               });
+               */
+
      return (
           <div id="outerCard" className="card mx-3">
                <div className="row g-0 m-2">
                     <div className="square col-md-3">
                          <Row className="m-4">
-                              <img className="img-fluid rounded-circle" alt="Profile" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80"/>
+                              <img className="img-fluid rounded-circle" alt="Profile" src={props.img_link}/>
                          </Row>
                          <Row>
                               <div className = "text-center">

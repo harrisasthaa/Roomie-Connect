@@ -36,7 +36,7 @@ export default function Discover() {
     
     
     useEffect(() => {
-        fetch('http://127.0.0.1:5000/getDiscover', {
+        fetch(`http://127.0.0.1:5000/getDiscover?email=${userEmail}`, {
             method: 'GET',
             headers: {
                 "Access-Control-Allow-Origin": "*",
@@ -65,7 +65,8 @@ export default function Discover() {
                     location={u.location}
                     description={u.description}
                     price_lower={u.price_lower}
-                    price_upper={u.price_upper}/>
+                    price_upper={u.price_upper}
+                    img_link={u.img_link}/>
             ));
         }
         else{

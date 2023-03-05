@@ -47,7 +47,7 @@ function Profile(props) {
             || !genderPref.current.value || !quiet.current.value || !quietPref.current.value || !phone.current.value){
             alert("Please fill out all fields");
         }
-        else{
+        else {
             fetch('http://127.0.0.1:5000/createUser', {
             method: 'POST',
             headers: {
