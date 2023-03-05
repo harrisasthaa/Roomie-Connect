@@ -37,6 +37,7 @@ function Profile(props) {
     const priceLower = useRef();
     const priceUpper = useRef();
     const fullTime = useRef();
+    const profPic = useRef();
 
     const updateUserData = () => {
         if(!firstName.current.value || !lastName.current.value || !age.current.value || 
@@ -76,7 +77,8 @@ function Profile(props) {
                 "university" : university.current.value,
                 "email" : email.current.value,
                 "about_me" : aboutMe.current.value,
-                "full_time" : ["Internship", "Full-Time"].indexOf(fullTime.current.value)
+                "full_time" : ["Internship", "Full-Time"].indexOf(fullTime.current.value),
+                "img_link" : profPic.current.value
             })
             })
             .then(resp => {
@@ -213,9 +215,9 @@ function Profile(props) {
                 <option>Full-Time</option>
                 </Form.Select>
             </Form.Group>
-            <Form.Group controlId="formFile" className="mb-3">
-                <Form.Label>Upload Profile Picture: </Form.Label>
-                <Form.Control type="file" />
+            <Form.Group className="mb-3">
+                <Form.Label htmlFor="profilePic">Insert Profile Pic URL </Form.Label>
+                <Form.Control id="profilePic" ref={profPic}/>
             </Form.Group>
         </Form>
         <Button className="col-md-2 offset-md-5 mb-3" variant="primary" type="submit" onClick={updateUserData}>
