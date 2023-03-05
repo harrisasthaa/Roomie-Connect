@@ -8,6 +8,7 @@ create table Compare(
     id int,
     city_state varchar(50),
     gender int,
+    gender_p int, 
     interest1 varchar(15), 
     interest2 varchar(15), 
     interest3 varchar(15), 
@@ -15,6 +16,8 @@ create table Compare(
     friend int, 
     price_lower int,
     price_upper int,
+    quiet int,
+    quiet_p int,
     PRIMARY KEY(id)
 );
 

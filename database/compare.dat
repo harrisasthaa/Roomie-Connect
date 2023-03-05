@@ -1,50 +1,50 @@
-0|Jacksonville, FL|0|Yoga|Mediation|Photography|Electrical Engineering|0|1238|2264
-1|Fort Worth, TX|0|Listening to music|Reading|Programming|Geography|1|1338|2892
-2|San Jose, CA|2|Learning new languages|Mediation|Photography|Kinesiology|0|1614|2151
-3|Fort Worth, TX|2|Collecting coins|Singing|Sculpting|Dance|1|1603|1716
-4|Phoenix, AZ|2|Playing board games|Reading|Fishing|Statistics|0|1001|1724
-5|Houston, TX|0|Yoga|Mediation|Playing board games|Mathematics|1|1093|2735
-6|Charlotte, NC|2|Collecting coins|Writing|Gardening|Theatre and Drama|1|202|2325
-7|Seattle, WA|2|Mediation|Gardening|Collecting coins|Real Estate and Urban Land Economics|1|701|989
-8|Charlotte, NC|1|Photography|Dancing|Collecting coins|Management and Human Resources|0|1409|3173
-9|Los Angeles, CA|1|Playing musical instruments|Singing|Collecting stamps|Mechanical Engineering|1|410|2899
-10|Austin, TX|0|Playing sports|Listening to music|Yoga|Civil Engineering|0|886|1613
-11|Fort Worth, TX|0|Cooking|Gardening|Watching movies|Agricultural Business Management|0|1536|3022
-12|San Francisco, CA|1|Horseback riding|Fishing|Cooking|Elementary Education|1|688|1785
-13|San Francisco, CA|2|Mediation|Dancing|Watching movies|Geography|1|748|2931
-14|Chicago, IL|1|Watching movies|Photography|Learning new languages|Real Estate and Urban Land Economics|0|568|871
-15|Houston, TX|0|Watching movies|Horseback riding|Cooking|Neurobiology|0|1292|1681
-16|Columbus, OH|2|Collecting stamps|Fishing|Playing musical instruments|Spanish|1|487|493
-17|Jacksonville, FL|0|Collecting stamps|Sculpting|Writing|Mechanical Engineering|0|1487|1908
-18|San Antonio, TX|2|Dancing|Collecting coins|Painting|Environmental Sciences|1|501|1751
-19|Houston, TX|0|Hiking|Cooking|Watching movies|Accounting|1|1528|3107
-20|Los Angeles, CA|2|Watching movies|Hiking|Reading|Psychology|0|1457|1587
-21|New York, NY|2|Horseback riding|Gardening|Writing|Dance|0|975|1913
-22|Philadelphia, PA|0|Learning new languages|Sculpting|Mediation|Music|0|341|759
-23|San Francisco, CA|0|Learning new languages|Listening to music|Singing|Marketing|0|1760|2588
-24|Denver, CO|2|Mediation|Learning new languages|Programming|Kinesiology|0|288|1105
-25|San Francisco, CA|2|Hiking|Traveling|Singing|Economics|1|354|1500
-26|Charlotte, NC|0|Playing musical instruments|Collecting stamps|Horseback riding|Dance|0|1408|1912
-27|San Antonio, TX|2|Cooking|Collecting coins|Volunteering|Spanish|0|1599|1991
-28|San Francisco, CA|1|Writing|Watching movies|Learning new languages|Computer Science|1|1301|2454
-29|San Diego, CA|1|Learning new languages|Playing sports|Programming|Nutritional Sciences|0|336|2581
-30|Houston, TX|2|Playing sports|Listening to music|Reading|Physics|1|1021|3040
-31|Phoenix, AZ|1|Collecting coins|Gardening|Playing board games|Electrical Engineering|0|1354|1990
-32|Houston, TX|2|Collecting coins|Sculpting|Dancing|Finance|1|1163|2433
-33|Chicago, IL|1|Painting|Sculpting|Collecting stamps|Journalism and Mass Communication|0|850|1664
-34|Philadelphia, PA|2|Collecting coins|Learning new languages|Traveling|Dance|1|923|2435
-35|Seattle, WA|2|Mediation|Photography|Horseback riding|English|0|259|2184
-36|San Francisco, CA|0|Hiking|Listening to music|Playing board games|Mathematics|1|591|1195
-37|Seattle, WA|0|Sculpting|Yoga|Reading|Psychology|0|1209|2808
-38|Austin, TX|0|Volunteering|Learning new languages|Gardening|Art|0|625|875
-39|Charlotte, NC|0|Learning new languages|Hiking|Fishing|Biomedical Engineering|1|223|2133
-40|San Francisco, CA|0|Learning new languages|Hiking|Fishing|Linguistics|1|241|779
-41|Phoenix, AZ|1|Sculpting|Watching movies|Hiking|Applied Mathematics|1|254|2376
-42|Washington, D.C., DC|0|Cooking|Playing sports|Gardening|Biomedical Engineering|1|1152|1550
-43|Indianapolis, IN|1|Playing board games|Mediation|Collecting stamps|Mathematics|0|1321|2502
-44|Phoenix, AZ|0|Hiking|Reading|Cooking|Geography|0|1679|1967
-45|Los Angeles, CA|2|Mediation|Sculpting|Cooking|Biochemistry|0|1432|2548
-46|Los Angeles, CA|1|Playing board games|Reading|Playing sports|Dance|1|1504|3156
-47|Seattle, WA|2|Collecting stamps|Sculpting|Reading|Journalism and Mass Communication|1|929|2584
-48|Fort Worth, TX|0|Fishing|Hiking|Traveling|Chemistry|1|457|2235
-49|Philadelphia, PA|0|Mediation|Fishing|Listening to music|Industrial and Systems Engineering|0|896|1670
+0|Jacksonville, FL|1|0|Reading|Photography|Singing|Real Estate and Urban Land Economics|0|1548|2503|1|0
+1|Fort Worth, TX|0|1|Mediation|Hiking|Writing|Electrical Engineering|0|1691|2196|1|0
+2|San Jose, CA|1|0|Reading|Dancing|Listening to music|Political Science|1|1327|1853|0|0
+3|Columbus, OH|3|2|Reading|Playing board games|Photography|Electrical Engineering|0|1418|1799|0|1
+4|Phoenix, AZ|3|0|Programming|Volunteering|Collecting coins|Genetics|0|581|840|1|1
+5|Washington, D.C., DC|1|2|Playing musical instruments|Playing board games|Fishing|Biomedical Engineering|0|403|2017|1|1
+6|Dallas, TX|2|0|Horseback riding|Listening to music|Collecting stamps|Accounting|0|1063|2805|0|0
+7|Fort Worth, TX|2|1|Volunteering|Listening to music|Writing|Physics|0|1791|2056|1|0
+8|San Diego, CA|1|1|Watching movies|Sculpting|Photography|Geology|0|1454|2916|1|1
+9|Austin, TX|0|1|Painting|Collecting coins|Fishing|Chemical Engineering|1|606|2575|1|1
+10|Columbus, OH|3|0|Dancing|Yoga|Collecting stamps|Geography|1|440|2706|1|0
+11|Washington, D.C., DC|1|2|Mediation|Dancing|Sculpting|Genetics|1|1473|1991|0|0
+12|Seattle, WA|0|0|Cooking|Playing musical instruments|Mediation|Civil Engineering|1|1481|2096|0|1
+13|San Jose, CA|3|2|Mediation|Traveling|Writing|Psychology|0|328|1034|1|1
+14|Austin, TX|0|0|Sculpting|Yoga|Playing sports|Materials Science and Engineering|1|448|1426|0|1
+15|Los Angeles, CA|0|0|Playing musical instruments|Hiking|Learning new languages|Mechanical Engineering|0|1343|2461|0|1
+16|Seattle, WA|2|1|Collecting coins|Horseback riding|Writing|Astronomy|0|832|2066|1|0
+17|Houston, TX|1|0|Yoga|Hiking|Watching movies|Civil Engineering|1|1697|1949|0|1
+18|San Diego, CA|0|0|Traveling|Watching movies|Playing musical instruments|Journalism and Mass Communication|0|1548|1563|1|0
+19|Indianapolis, IN|2|0|Sculpting|Photography|Programming|Elementary Education|0|1256|2049|1|0
+20|Dallas, TX|3|1|Singing|Painting|Gardening|Real Estate and Urban Land Economics|0|633|710|1|0
+21|San Antonio, TX|2|2|Cooking|Playing musical instruments|Sculpting|Biomedical Engineering|1|1348|2602|1|1
+22|Phoenix, AZ|0|2|Singing|Fishing|Playing musical instruments|Computer Science|1|770|2424|1|0
+23|Indianapolis, IN|3|2|Programming|Traveling|Collecting stamps|History|0|1043|1960|1|1
+24|Los Angeles, CA|2|1|Playing board games|Hiking|Sculpting|Sociology|1|219|534|1|0
+25|Washington, D.C., DC|1|0|Volunteering|Singing|Photography|Genetics|0|930|3074|1|0
+26|San Antonio, TX|2|1|Collecting coins|Learning new languages|Photography|Biochemistry|1|310|3156|1|0
+27|San Antonio, TX|1|2|Yoga|Traveling|Playing musical instruments|Linguistics|1|573|2133|0|0
+28|San Jose, CA|0|0|Collecting coins|Horseback riding|Photography|Zoology|1|1018|1294|0|0
+29|San Jose, CA|3|2|Watching movies|Writing|Collecting stamps|Biochemistry|1|1562|2655|0|0
+30|San Antonio, TX|0|1|Watching movies|Volunteering|Listening to music|Computer Science|0|1543|2968|1|1
+31|Houston, TX|1|1|Learning new languages|Volunteering|Cooking|Geology|1|788|1171|0|0
+32|San Antonio, TX|3|2|Painting|Fishing|Learning new languages|International Studies|1|590|638|1|1
+33|San Antonio, TX|0|1|Yoga|Playing sports|Learning new languages|Civil Engineering|1|1304|2127|0|1
+34|Chicago, IL|3|2|Painting|Photography|Learning new languages|Genetics|1|385|1746|0|0
+35|San Francisco, CA|1|2|Learning new languages|Gardening|Collecting coins|Linguistics|0|909|2393|0|0
+36|San Antonio, TX|3|0|Dancing|Playing board games|Sculpting|Industrial and Systems Engineering|0|1546|3104|0|1
+37|Houston, TX|0|2|Dancing|Playing board games|Cooking|Biochemistry|1|1030|2407|1|0
+38|Los Angeles, CA|3|2|Photography|Collecting coins|Gardening|Finance|0|449|2721|0|1
+39|San Diego, CA|1|2|Watching movies|Sculpting|Photography|Chemistry|1|361|2551|1|0
+40|New York, NY|2|2|Playing musical instruments|Sculpting|Hiking|Chemical Engineering|1|1524|1557|1|1
+41|Los Angeles, CA|3|2|Gardening|Dancing|Sculpting|Philosophy|1|639|989|0|0
+42|Chicago, IL|3|2|Traveling|Reading|Programming|Philosophy|1|683|3188|1|1
+43|Austin, TX|0|1|Listening to music|Gardening|Dancing|Music|0|1639|2508|1|0
+44|Washington, D.C., DC|1|0|Painting|Sculpting|Fishing|Agricultural Business Management|1|1007|2632|1|0
+45|Indianapolis, IN|2|2|Horseback riding|Reading|Singing|English|1|1073|2833|0|0
+46|Houston, TX|1|0|Yoga|Hiking|Painting|Applied Mathematics|0|1595|2613|1|1
+47|Washington, D.C., DC|2|1|Sculpting|Cooking|Watching movies|Civil Engineering|1|1243|2401|0|0
+48|San Jose, CA|2|0|Traveling|Listening to music|Dancing|Spanish|0|1521|1672|1|0
+49|Columbus, OH|0|1|Photography|Horseback riding|Singing|History|0|983|1769|0|1

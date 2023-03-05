@@ -28,14 +28,16 @@ for i in range(50):
     school = universities[random.randint(0,len(universities) -1 )];
     major = uw_madison_majors[random.randint(0,len(uw_madison_majors)) -1];
     descriptions = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget arcu volutpat, convallis elit vel, venenatis magna. Fusce volutpat quam eu enim tincidunt, in ultricies purus lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi interdum, nulla quis ultrices malesuada, enim justo eleifend neque, nec bibendum sem felis sed quam. ";
-    age = random.randint(18, 100)
-    gender = random.randint(0, 2)
+    age = random.randint(18, 30)
+    gender = random.randint(0, 3)
+    gender_p = random.randint(0, 2)
     city_index = random.randint(0,20);
     usa_cities_states_selected = usa_cities_states[random.randint(0,len(usa_cities_states) -1)];
     price_lower = random.randint(200, 1800)
     price_higher = random.randint(price_lower, 3200)
     friend_p = random.randint(0, 1)
     quiet = random.randint(0, 1)
+    quiet_p = random.randint(0, 1)
     interest_user = random.sample(interests, 3)
     interest_user_string =interest_user[0]
     for i in range(1,len(interest_user)):
@@ -43,7 +45,7 @@ for i in range(50):
     email = f"{first_name}123@university.edu"
     display_line = f"{unique_id}|{first_name}|{last_name}|{age}|{school}|{email}|{descriptions}"
     display_file.append(display_line)
-    comparing_line = f"{unique_id}|{usa_cities_states_selected}|{gender}|{interest_user[0]}|{interest_user[1]}|{interest_user[2]}|{major}|{friend_p}|{price_lower}|{price_higher}"
+    comparing_line = f"{unique_id}|{usa_cities_states_selected}|{gender}|{gender_p}|{interest_user[0]}|{interest_user[1]}|{interest_user[2]}|{major}|{friend_p}|{price_lower}|{price_higher}|{quiet}|{quiet_p}"
     comparing_file.append(comparing_line)
 
 
