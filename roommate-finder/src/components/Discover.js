@@ -42,6 +42,9 @@ export default function Discover() {
                     university={u.university}
                     location={u.location}
                     about_me={u.about_me}
+                    interest1={u.interest1}
+                    interest2={u.interest2}
+                    interest3={u.interest3}
                     price_lower={u.price_lower}
                     price_upper={u.price_upper}
                     img_link={u.img_link}/>

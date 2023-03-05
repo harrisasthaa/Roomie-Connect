@@ -20,7 +20,7 @@ export default function MatchesCard(props) {
                          <Row>
                               <div className="text-center">
                                 <h5>
-                                    Contacts: <Badge bg="secondary">{props.phone}</Badge>
+                                    Contact Info: <Badge bg="secondary">({props.phone.toString().slice(0,3)}) {props.phone.toString().slice(3,6)}-{props.phone.toString().slice(6)}</Badge>
                                 </h5>
                               </div>
                          </Row>
