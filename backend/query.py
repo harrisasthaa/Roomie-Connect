@@ -111,7 +111,7 @@ def get_discover(email):
     match_ids = []
     c.execute(f"SELECT first_id FROM Matches WHERE second_id={user_id} AND (match=1 OR match=0)")
     match_ids.extend(c.fetchall())
-    c.execute(f"SELECT second_id FROM Matches WHERE first_id={user_id} AND (match=2 OR match=0")
+    c.execute(f"SELECT second_id FROM Matches WHERE first_id={user_id} AND (match=2 OR match=0)")
     match_ids.extend(c.fetchall())
     # get info about matches
     # id, first_name, last_name, gender, age, major, city_state, price_upper, price_lower, interests, about_me
