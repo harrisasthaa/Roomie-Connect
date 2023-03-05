@@ -94,8 +94,8 @@ def get_user():
     users = [dict(zip(keys, d)) for d in data]
     return jsonify(users)
 
-# gets matches for a particular user id
-def get_matches(email):
+# gets discovery matches for a particular user id
+def get_discover(email):
     c = sqlite3.connect("../database/bunk.db").cursor()
 
     # get user_id
