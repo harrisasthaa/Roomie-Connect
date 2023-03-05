@@ -194,12 +194,14 @@ def create_user(user_data):
 # create_user(user_data)
 
 def update_match(email1, id2, match_state):
+    print("IN UPDATe_MaTch")
     connection = sqlite3.connect("../database/bunk.db")
     cursor = connection.cursor()
 
     # get user id
     cursor.execute(f"SELECT id from Display WHERE email='{email1}' LIMIT 1")
     id1 = cursor.fetchone()
+    #print(id1)
     if id1:
         id1 = id1[0]
 
@@ -207,20 +209,19 @@ def update_match(email1, id2, match_state):
     ## if first id - the one being updated 
     cursor.execute(f"SELECT match FROM Matches WHERE (first_id={id1} AND second_id={id2})")
     match = cursor.fetchone()
+    #print("MATCH")
+    #print(match)
     if match:
         match = match[0]
         first = True
     else:
-        return "No Match Found"
+        cursor.execute(f"SELECT match FROM Matches WHERE (first_id={id2} AND second_id={id1})")
+        match = cursor.fetchone()
+        if match:
+            match=match[0]
+        else:
+            return "No Match Found"
     
-    ##second id is being updated 
-    cursor.execute(f"SELECT match FROM Matches WHERE (first_id={id2} AND second_id={id1})")
-    match = cursor.fetchone()
-    if match:
-        match = match[0]
-        first = False
-    else:
-        return "No Match Found"
     
     if (match == 1 or match == 2) and match_state == 1:
         match = 3
@@ -235,8 +236,10 @@ def update_match(email1, id2, match_state):
         match = 4
 
     if first:
+        print(f"UPDATE Matches SET match={match} WHERE first_id={id1} AND second_id={id2}")
         cursor.execute(f"UPDATE Matches SET match={match} WHERE first_id={id1} AND second_id={id2}")
     else:
+        print(f"UPDATE Matches SET match={match} WHERE first_id={id2} AND second_id={id1}")
         cursor.execute(f"UPDATE Matches SET match={match} WHERE first_id={id2} AND second_id={id1}")
     connection.commit()
     connection.close()

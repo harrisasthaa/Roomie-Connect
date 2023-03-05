@@ -41,6 +41,7 @@ def update_match_request():
     email = user_data['email']
     id = user_data['id']
     match_state = user_data['match_state']
+    print(user_data)
     return update_match(email, id, match_state)
 
 if __name__== "__main__":
