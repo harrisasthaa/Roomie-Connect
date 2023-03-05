@@ -154,8 +154,7 @@ def get_matches(email):
         c.execute(f"SELECT D.id, D.first_name, D.last_name, C.gender, D.age, C.major, D.university, C.city_state, C.price_upper, C.price_lower, D.about_me, C.interest1, C.interest2, C.interest3\
              FROM Display D, Compare C\
              WHERE D.id = C.id\
-             AND D.id={match_id[0]}\
-             ORDER BY compatability DESC")
+             AND D.id={match_id[0]}")
         # print(dict(zip(keys,c.fetchall()[0])))
         matches.append(dict(zip(keys,c.fetchall()[0])))
     c.connection.close()
