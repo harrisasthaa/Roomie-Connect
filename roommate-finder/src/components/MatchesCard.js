@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row } from 'react-bootstrap';
+import { Row, Badge } from 'react-bootstrap';
 
 export default function MatchesCard(props) {
 
@@ -15,11 +15,13 @@ export default function MatchesCard(props) {
                <div className="row g-0 m-2">
                     <div className="square col-md-3">
                          <Row className="m-4">
-                              <img className="img-fluid rounded-circle" alt="Profile" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80"/>
+                              <img className="img-fluid rounded-circle" alt="Profile" src={props.link_img}/>
                          </Row>
                          <Row>
                               <div className="text-center">
-                                   <p>Contact: {props.phone_number}</p>
+                                <h5>
+                                    Contacts: <Badge bg="secondary">{props.phone}</Badge>
+                                </h5>
                               </div>
                          </Row>
                     </div>

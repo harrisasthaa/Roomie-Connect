@@ -50,7 +50,7 @@ export default function Discover() {
         else{
             return (
                     <Alert variant="danger" className="text-center">
-                        Please fill out your profile before looking at matches
+                        Please fill out your profile before looking at discover page
                     </Alert>
             )
         }

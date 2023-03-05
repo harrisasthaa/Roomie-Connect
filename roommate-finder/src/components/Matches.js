@@ -29,7 +29,7 @@ export default function Matches() {
     }, [])
 
     const displayInfo = () => {
-        if (true) {
+        if (userEmail) {
             return (
                 <div id="discoverBackground">
                     {users.map((u) => (
@@ -44,7 +44,8 @@ export default function Matches() {
                             about_me={u.about_me}
                             price_lower={u.price_lower}
                             price_upper={u.price_upper}
-                            phone_number={u.phone_number}/>
+                            phone={u.phone}
+                            img_link={u.img_link}/>
                     ))}
                 </div>
             )
