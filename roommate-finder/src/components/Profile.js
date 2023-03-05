@@ -2,9 +2,10 @@ import React from 'react';
 import {Form, Button} from 'react-bootstrap';
 
 
+
 function Profile(props) {
-    return <div>
-        <h1>Profile Page</h1>
+    return <div className="mx-3">
+        <h1 className="text-center mt-3">Profile Page</h1>
         <Form>
             <Form.Group className="mb-3">
                 <Form.Label htmlFor="first name">First Name</Form.Label>

@@ -4,8 +4,8 @@ import {Link, Outlet} from 'react-router-dom';
 
 function FinderLayout(props) {
 
-    return <div>
-        <Navbar>
+    return <div> 
+        <Navbar className="primaryBar" variant="dark">
             <Container>
                 <Nav>
                     <Nav.Link as={Link} to="/profile">Profile</Nav.Link>
