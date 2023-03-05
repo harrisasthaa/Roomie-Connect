@@ -7,7 +7,9 @@ create table Compare(
     id int,
     location varchar(50),
     gender int,
-    interest varchar(100),
+    interest1 varchar(15), 
+    interest2 varchar(15), 
+    interest3 varchar(15), 
     friend int, 
     price_lower int,
     price_upper int,
@@ -24,9 +26,19 @@ create table Display(
     gender int,
     email varchar(35), 
     city_state varchar(20),
-    interest varchar(15), 
+    interest1 varchar(15), 
+    interest2 varchar(15), 
+    interest3 varchar(15), 
     about_me text,
     PRIMARY KEY(id)
+);
+
+create table Matches(
+    first_id int, 
+    second_id int,
+    compatability int, 
+    -- #// 1 for only first match, 2 for only second match , 3 for MATCH!! 
+    match int
 );
 
 -- create table User(

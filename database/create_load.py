@@ -41,15 +41,15 @@ for i in range(15):
     for i in range(1,len(interest_user)):
         interest_user_string +=  "," + interest_user[i]
     email = f"{first_name}123@university.edu"
-    display_line = f"{unique_id}|{first_name}|{last_name}|{age}|{major}|{school}|{gender}|{email}|{usa_cities_states_selected}|{interest_user_string}|{descriptions}";
+    display_line = f"{unique_id}|{first_name}|{last_name}|{age}|{major}|{school}|{gender}|{email}|{usa_cities_states_selected}|{interest_user[0]}|{interest_user[1]}|{interest_user[2]}|{descriptions}";
     display_file.append(display_line)
-    comparing_line = f"{unique_id}|{usa_cities_states_selected}|{gender}|{interest_user_string}|{friend_p}|{price_lower}|{price_higher}";
+    comparing_line = f"{unique_id}|{usa_cities_states_selected}|{gender}|{interest_user[0]}|{interest_user[1]}|{interest_user[2]}|{friend_p}|{price_lower}|{price_higher}";
     comparing_file.append(comparing_line)
 
 
 
-filename_display = 'display_create_load.txt'
-filename_comparing = 'comparing_create_lod.txt'
+filename_display = 'display.txt'
+filename_comparing = 'compare.txt'
 
 with open(filename_display, 'w') as file:
     for inner_list in display_file:
