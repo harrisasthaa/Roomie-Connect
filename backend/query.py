@@ -13,7 +13,7 @@ def match_algorithm(user_data, df):
     w4 = .2
     w5 = .9
     
-    df['compatibility'] = 0;
+    df['compatibility'] = 0
     ## first deal with the friends --- all or nothing 
     # if the friend pereference matches selected users preference 
     
@@ -153,6 +153,7 @@ def create_user(user_data):
             cursor.execute(f"INSERT INTO Matches (first_id, second_id, compatability, match) VALUES ({id}, {match_id}, {compatability}, 0)")
     connection.commit()
     connection.close()
+    return
     
 # user_data= {"first_name": "Johnny", "last_name": "Appleseed","full_time":1, "phone":"123-456-7890", "age":21, "university":"Harvard University", "email":"dummyemail@gmail.com", "about_me":"Hi This is about me.","city_state":"Los Angeles, CA", "gender":0, "gender_p":0, "interest1":"Reading", "interest2":"Writing", "interest3":"Hiking", "major":"Accounting", "friend":0, "price_lower":1500, "price_upper":2000, "quiet":1, "quiet_p":1}
 # create_user(user_data)
