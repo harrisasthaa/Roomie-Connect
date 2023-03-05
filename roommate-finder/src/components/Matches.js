@@ -23,7 +23,6 @@ export default function Matches() {
 
         }).then(resp => resp.json())
         .then(resp => {
-            console.log(resp);
             setUsers(resp);
         })
     }, [])
