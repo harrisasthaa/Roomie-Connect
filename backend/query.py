@@ -151,7 +151,7 @@ def get_matches(email):
     matches = []
     keys = ["id", "first_name", "last_name", "gender", "age", "major", "university", "location", "price_upper", "price_lower", "about_me", "interest1", "interest2", "interest3", "full_time", "img_link"]
     for match_id in match_ids:
-        c.execute(f"SELECT D.id, D.first_name, D.last_name, C.gender, D.age, C.major, D.university, C.city_state, C.price_upper, C.price_lower, D.about_me, C.interest1, C.interest2, C.interest3, D.img_link\
+        c.execute(f"SELECT D.id, D.first_name, D.last_name, C.gender, D.age, C.major, D.university, C.city_state, C.price_upper, C.price_lower, D.about_me, C.interest1, C.interest2, C.interest3, C.full_time, D.img_link\
              FROM Display D, Compare C\
              WHERE D.id = C.id\
              AND D.id={match_id[0]}")
