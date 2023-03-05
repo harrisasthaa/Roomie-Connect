@@ -12,7 +12,9 @@ universities = [    'Harvard University',    'Massachusetts Institute of Technol
 uw_madison_majors = [    'Accounting',    'Agricultural Business Management',    'Animal Sciences',    'Applied Mathematics',    'Art',    'Astronomy',    'Biochemistry',    'Biomedical Engineering',    'Chemical Engineering',    'Chemistry',    'Civil Engineering',    'Computer Engineering',    'Computer Science',    'Dance',    'Economics',    'Electrical Engineering',    'Elementary Education',    'English',    'Environmental Sciences',    'Finance',    'Genetics',    'Geography',    'Geology',    'History',    
                      'Industrial and Systems Engineering',    'International Studies',    'Journalism and Mass Communication',    'Kinesiology',    'Linguistics',    'Management and Human Resources',    'Marketing',    'Materials Science and Engineering',    'Mathematics',    'Mechanical Engineering',    'Medical Microbiology and Immunology',    'Music',    'Neurobiology',    'Nursing',    'Nutritional Sciences',    'Philosophy',    'Physics',    'Political Science',    'Psychology',    'Real Estate and Urban Land Economics',    'Sociology',    'Spanish',    'Statistics',    'Theatre and Drama',    'Zoology']
 usa_cities = ['New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'Philadelphia', 'San Antonio', 'San Diego', 'Dallas', 'San Jose', 'Austin', 'Jacksonville', 'Fort Worth', 'Columbus', 'San Francisco', 'Charlotte', 'Indianapolis', 'Seattle', 'Denver', 'Washington, D.C.']
+usa_cities = usa_cities[:5]
 usa_states = ['NY', 'CA', 'IL', 'TX', 'AZ', 'PA', 'TX', 'CA', 'TX', 'CA', 'TX', 'FL', 'TX', 'OH', 'CA', 'NC', 'IN', 'WA', 'CO', 'DC']
+usa_states = usa_states[:5]
 usa_cities_states = []
 for i in range(len(usa_cities)):
     usa_cities_states.append(usa_cities[i]+", " +usa_states[i] )
@@ -40,6 +42,7 @@ for i in range(200):
     friend_p = random.randint(0, 1)
     quiet = random.randint(0, 1)
     quiet_p = random.randint(0, 1)
+    full_time = random.randint(0, 1)
     interest_user = random.sample(interests, 3)
     interest_user_string =interest_user[0]
     for i in range(1,len(interest_user)):
@@ -47,7 +50,7 @@ for i in range(200):
     email = f"{first_name}123@university.edu"
     display_line = f"{unique_id}|{first_name}|{last_name}|{phone}|{age}|{school}|{email}|{descriptions}"
     display_file.append(display_line)
-    comparing_line = f"{unique_id}|{usa_cities_states_selected}|{gender}|{gender_p}|{interest_user[0]}|{interest_user[1]}|{interest_user[2]}|{major}|{friend_p}|{price_lower}|{price_higher}|{quiet}|{quiet_p}"
+    comparing_line = f"{unique_id}|{usa_cities_states_selected}|{full_time}|{gender}|{gender_p}|{interest_user[0]}|{interest_user[1]}|{interest_user[2]}|{major}|{friend_p}|{price_lower}|{price_higher}|{quiet}|{quiet_p}"
     comparing_file.append(comparing_line)
 
 

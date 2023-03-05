@@ -7,6 +7,7 @@ drop table if exists Matches;
 create table Compare(
     id int,
     city_state varchar(50),
+    full_time int,
     gender int,
     gender_p int, 
     interest1 varchar(15), 
