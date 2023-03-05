@@ -11,10 +11,11 @@ export default function Discover() {
         age: 20,
         gender: 0,
         school: "University of Wisconsin - Madison",
-        city: "Madison",
-        state: "Wisconsin",
+        city: "New York City",
+        state: "New York",
         price_lower: 1500,
-        price_upper: 2500
+        price_upper: 2500,
+        description: "Hi everyone! I am looking for housing in the NYC area this summer"
     }, {
         id: 1,
         first_name: "Chris",
@@ -22,10 +23,11 @@ export default function Discover() {
         gender: 0,
         age: 21,
         school: "University of Wisconsin - Madison",
-        city: "Madison",
-        state: "Wisconsin",
+        city: "Seattle",
+        state: "Washington",
         price_lower: 1500,
-        price_upper: 2500
+        price_upper: 2500,
+        description: "Hi everyone! I am looking for housing in the Seattle area this summer"
     }]);
 
     useEffect(() => {
@@ -44,6 +46,7 @@ export default function Discover() {
                         school={u.school}
                         city={u.city}
                         state={u.state}
+                        description={u.description}
                         price_lower={u.price_lower}
                         price_upper={u.price_upper}/>
                 ))}

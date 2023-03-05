@@ -29,6 +29,9 @@ export default function DiscoverCard(props) {
                                    <button type="button" className="btn btn-success">Bunk</button>
                              </div>
                          </div>
+                         <div className="col-md-4">
+                              <p>{props.description}</p>
+                         </div>
                     </div>
                </div>
           </div>
