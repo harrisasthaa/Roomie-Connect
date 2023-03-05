@@ -2,8 +2,12 @@ import React from 'react';
 import {Navbar, Container, Nav} from 'react-bootstrap';
 import {Link, Outlet} from 'react-router-dom';
 import logo from "../bed.png";
+import UserContext from './UserContext';
+import {useState} from 'react';
 
 function FinderLayout(props) {
+
+    const [userEmail, setUserEmail] = useState();
 
     return <div> 
         <Navbar className="primaryBar" variant="dark">
@@ -20,7 +24,9 @@ function FinderLayout(props) {
                 </Container>
             </Container>
         </Navbar>
-        <Outlet />
+        <UserContext.Provider value={[userEmail, setUserEmail]}>
+            <Outlet />
+        </UserContext.Provider>
     </div>
 
 }
