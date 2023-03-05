@@ -56,7 +56,7 @@ function Profile(props) {
             body: JSON.stringify({
                 "city_state" : location.current.value,
                 "gender" : ['Male', 'Female', 'Non-Binary', 'Other'].indexOf(gender.current.value),
-                "gender_p" : genderPref.current.value,
+                "gender_p" : ['Male', 'Female', 'Any'].indexOf(genderPref.current.value),
                 "interest1" : interest1.current.value,
                 "interest2" : interest2.current.value,
                 "interest3" : interest3.current.value,
@@ -163,7 +163,12 @@ function Profile(props) {
             </Form.Group> 
                <Form.Group className="mb-3">
                 <Form.Label htmlFor="gender pref">Roommate Gender Preference</Form.Label>
-                <Form.Control id="gender pref" ref={genderPref}></Form.Control>
+                <Form.Select id="gender pref" ref={genderPref}>
+                <option></option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Any</option>
+                </Form.Select>
             </Form.Group> 
             <Form.Group className="mb-3">
                 <Form.Label htmlFor="quiet">Describe Your Noise Level</Form.Label>
