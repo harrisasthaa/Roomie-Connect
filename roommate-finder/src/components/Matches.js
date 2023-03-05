@@ -1,9 +1,12 @@
 import React from 'react';
-import {useState, useEffect} from 'react';
+import {useState, useEffect, useContext} from 'react';
+import UserContext from './UserContext';
 import MatchesCard from './MatchesCard';
+import {Alert} from 'react-bootstrap';
 
 export default function Matches() {
 
+    const [userEmail, setUserEmail] = useContext(UserContext);
     
     const [users, setUsers] = useState([
         {id: 0,
@@ -50,22 +53,38 @@ export default function Matches() {
         })
     }, [])*/
 
+    const displayInfo = () => {
+        if (userEmail) {
+            return (
+                <div id="discoverBackground">
+                    {users.map((u) => (
+                        <MatchesCard
+                            key={u.id}
+                            first_name={u.first_name}
+                            last_name={u.last_name}
+                            gender={u.gender}
+                            age={u.age}
+                            location={u.location}
+                            state={u.state}
+                            aboutMe={u.description}
+                            price_lower={u.price_lower}
+                            price_upper={u.price_upper}
+                            phone_number={u.phone_number}/>
+                    ))}
+                </div>
+            )
+        } else {
+            return (
+                <Alert variant="danger" className="text-center">
+                    Please fill out your profile before looking at matches
+                </Alert>
+            )
+        }
+    }
+
     return (
         <div id="discoverBackground">
-            {users.map((u) => (
-                <MatchesCard
-                    key={u.id}
-                    first_name={u.first_name}
-                    last_name={u.last_name}
-                    gender={u.gender}
-                    age={u.age}
-                    location={u.location}
-                    state={u.state}
-                    aboutMe={u.description}
-                    price_lower={u.price_lower}
-                    price_upper={u.price_upper}
-                    phone_number={u.phone_number}/>
-            ))}
+            {displayInfo()}
         </div>
     )
 };

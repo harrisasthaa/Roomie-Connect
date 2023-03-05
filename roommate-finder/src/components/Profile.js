@@ -213,6 +213,10 @@ function Profile(props) {
                 <option>Full-Time</option>
                 </Form.Select>
             </Form.Group>
+            <Form.Group controlId="formFile" className="mb-3">
+                <Form.Label>Upload Profile Picture: </Form.Label>
+                <Form.Control type="file" />
+            </Form.Group>
         </Form>
         <Button className="col-md-2 offset-md-5 mb-3" variant="primary" type="submit" onClick={updateUserData}>
             Update Profile
