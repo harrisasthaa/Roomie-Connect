@@ -31,9 +31,10 @@ create table Display(
     university varchar(35), 
     email varchar(35),  
     about_me text,
+    img_link varchar(40),
     PRIMARY KEY(id)
     UNIQUE(email)
-    img_link varchar(40)
+    
 );
 
 create table Matches(

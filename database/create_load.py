@@ -1,6 +1,16 @@
 
 import random
 import string
+import requests
+import json
+links = []
+res = requests.get('https://randomuser.me/api/?results=200')
+response = json.loads(res.text)
+response = (response['results'])
+for resp in response:
+    links.append(resp['picture']['large'])
+   
+print (links)
 
 def generate_random_name(length):
     first_name = ''.join(random.choice(string.ascii_lowercase) for _ in range(length))
@@ -45,7 +55,10 @@ for i in range(200):
     full_time = random.randint(0, 1)
     interest_user = random.sample(interests, 3)
     interest_user_string =interest_user[0]
-    img_link = "bob is great."
+    if i < len(links): 
+        img_link = links[i]
+    else:
+        img_link = "https://randomuser.me/api/portraits/women/33.jpg"
     for i in range(1,len(interest_user)):
         interest_user_string +=  "," + interest_user[i]
     email = f"{first_name}123@university.edu"
