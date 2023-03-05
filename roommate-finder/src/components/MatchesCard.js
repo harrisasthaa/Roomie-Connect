@@ -1,7 +1,7 @@
 import React from 'react';
-import {Row, Button} from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 
-export default function DiscoverCard(props) {
+export default function MatchesCard(props) {
 
      let imageURL; 
 
@@ -20,9 +20,8 @@ export default function DiscoverCard(props) {
                               <img className="img-fluid rounded-circle" alt="Profile" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80"/>
                          </Row>
                          <Row>
-                              <div className = "text-center">
-                                   <Button variant="danger" className="col-md-6">Pass</Button>
-                                   <Button variant="success" className="col-md-6">Bunk</Button>
+                              <div className="text-center">
+                                   <p>Contact: {props.phone_number}</p>
                               </div>
                          </Row>
                     </div>
@@ -39,7 +38,7 @@ export default function DiscoverCard(props) {
                     <div className="vr my-5"></div>
                     <div className="card-body col-md-4 mx-3">
                          <h2 className="card-title text-center">About Me</h2>
-                         <p>{props.description}</p>
+                         <p>{props.aboutMe}</p>
                     </div>
                </div>
           </div>

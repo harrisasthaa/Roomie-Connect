@@ -1,7 +1,12 @@
 from flask import Flask, request, jsonify
 from query import get_user, get_discover, create_user
+import sqlite3
+from flask_cors import CORS
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
+
 
 @app.route("/")
 def hello():
