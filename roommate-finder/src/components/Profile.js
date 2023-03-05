@@ -1,10 +1,13 @@
 import React from 'react';
-import {useState, useRef} from 'react';
+import {useContext, useRef} from 'react';
 import {Form, Button} from 'react-bootstrap';
+import UserContext from './UserContext';
 
 
 function Profile(props) {
 
+
+    const [userEmail, setUserEmail] = useContext(UserContext);
 
     const universities = ['Harvard University',    'Massachusetts Institute of Technology (MIT)',    'Stanford University',    'California Institute of Technology (Caltech)',    'University of Cambridge',    'University of Oxford',    'ETH Zurich - Swiss Federal Institute of Technology',    'University of Chicago',    'Princeton University',    'Yale University',    'University of California, Berkeley (UCB)',    'Columbia University',    'University of California, Los Angeles (UCLA)',    'University of Michigan-Ann Arbor',    'University of Pennsylvania',    'Cornell University',    'Duke University',    'University of Toronto',    'University of Wisconsin-Madison',    'University of Tokyo'];
     const majors = [    'Accounting',    'Agricultural Business Management',    'Animal Sciences',    'Applied Mathematics',    'Art',    'Astronomy',    'Biochemistry',    'Biomedical Engineering',    'Chemical Engineering',    'Chemistry',    'Civil Engineering',    'Computer Engineering',    'Computer Science',    'Dance',    'Economics',    'Electrical Engineering',    'Elementary Education',    'English',    'Environmental Sciences',    'Finance',    'Genetics',    'Geography',    'Geology',    'History',    
@@ -44,7 +47,7 @@ function Profile(props) {
             alert("Please fill out all fields");
         }
         else{
-            
+            /*
             fetch('http://127.0.0.1:5000/createUser', {
             method: 'POST',
             headers: {
@@ -81,7 +84,11 @@ function Profile(props) {
                 if(resp.status !== 200){
                     alert("Update failed");
                 }
-            });
+                else{
+                    setUserEmail(email.current.value);
+                }
+            });*/
+            setUserEmail(email.current.value);
         }
     }
 

@@ -1,10 +1,12 @@
 import React from 'react';
-import {useState, useEffect} from 'react';
+import {useState, useContext} from 'react';
 import DiscoverCard from './DiscoverCard';
+import UserContext from './UserContext';
 
 export default function Discover() {
 
-    
+    const [userEmail, setUserEmail] = useContext(UserContext);
+
     const [users, setUsers] = useState([
         {id: 0,
         first_name: "Chase",
@@ -48,9 +50,10 @@ export default function Discover() {
         })
     }, [])*/
 
-    return (
-        <div id="discoverBackground">
-            {users.map((u) => (
+
+    const displayInfo = () => {
+        if(userEmail){
+            return users.map((u) => (
                 <DiscoverCard
                     key={u.id}
                     first_name={u.first_name}
@@ -62,7 +65,16 @@ export default function Discover() {
                     description={u.description}
                     price_lower={u.price_lower}
                     price_upper={u.price_upper}/>
-            ))}
+            ));
+        }
+        else{
+            return <h1>Please complete your profile</h1>
+        }
+    }
+
+    return (
+        <div id="discoverBackground">
+            {displayInfo()}
         </div>
     )
 };
