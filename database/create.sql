@@ -32,6 +32,7 @@ create table Display(
     email varchar(35),  
     about_me text,
     PRIMARY KEY(id)
+    UNIQUE(email)
 );
 
 create table Matches(
