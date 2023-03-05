@@ -2,6 +2,7 @@ import React from 'react';
 import {useEffect, useState, useContext} from 'react';
 import DiscoverCard from './DiscoverCard';
 import UserContext from './UserContext';
+import {Alert} from 'react-bootstrap';
 
 export default function Discover() {
 
@@ -69,7 +70,11 @@ export default function Discover() {
             ));
         }
         else{
-            return <h1>Please complete your profile</h1>
+            return (
+                <Alert variant="danger" className="text-center">
+                    Please fill out your profile before looking at matches
+                </Alert>
+            )
         }
     }
 
