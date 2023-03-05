@@ -15,13 +15,13 @@ export default function MatchesCard(props) {
      return (
           <div id="outerCard" className="card mx-3">
                <div className="row g-0 m-2">
-                    <div className="col-md-4">
-                         <Row className="mb-3 mt-1">
-                              <img className="img-fluid shadow-2-strong rounded-5" alt="Profile" src="https://media.istockphoto.com/id/639805094/photo/happy-man.jpg?s=612x612&w=0&k=20&c=REx0Usczge4a0soQvp7fQgGCcFMHeORGUTpOIPW-IYA="/>
+                    <div className="square col-md-3">
+                         <Row className="m-4">
+                              <img className="img-fluid rounded-circle" alt="Profile" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80"/>
                          </Row>
                          <Row>
                               <div className="text-center">
-                                   <p>{props.phone_number}</p>
+                                   <p>Contact: {props.phone_number}</p>
                               </div>
                          </Row>
                     </div>
