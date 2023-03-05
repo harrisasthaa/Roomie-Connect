@@ -1,5 +1,5 @@
 import React from 'react';
-import {useState, useContext} from 'react';
+import {useEffect, useState, useContext} from 'react';
 import DiscoverCard from './DiscoverCard';
 import UserContext from './UserContext';
 
@@ -7,7 +7,7 @@ export default function Discover() {
 
     const [userEmail, setUserEmail] = useContext(UserContext);
 
-    const [users, setUsers] = useState([
+    /*const [users, setUsers] = useState([
         {id: 0,
         first_name: "Chase",
         last_name: "Mathis",
@@ -29,14 +29,14 @@ export default function Discover() {
         min_price: 1500,
         max_price: 2500,
         description: "HELJKEOEONGONSGONHGIONHIHNSOHNOHISHNIHHOSNHOHNHOI"}
-        ]);
+        ]);*/
 
-    //const [users, setUsers] = useState([]);
+    const [users, setUsers] = useState([]);
     
-    /*
     useEffect(() => {
-        fetch('http://127.0.0.1:5000/request1', {
+        fetch(`http://127.0.0.1:5000/getDiscover?email=${userEmail}`, {
             method: 'GET',
+            email: userEmail,
             headers: {
                 "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Headers": "*",
@@ -46,9 +46,10 @@ export default function Discover() {
 
         }).then(resp => resp.json())
         .then(resp => {
+            console.log(resp);
             setUsers(resp);
         })
-    }, [])*/
+    }, [])
 
 
     const displayInfo = () => {

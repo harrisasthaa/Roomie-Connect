@@ -47,7 +47,6 @@ function Profile(props) {
             alert("Please fill out all fields");
         }
         else{
-            /*
             fetch('http://127.0.0.1:5000/createUser', {
             method: 'POST',
             headers: {
@@ -79,16 +78,10 @@ function Profile(props) {
                 "about_me" : aboutMe.current.value,
                 "full_time" : ["Internship", "Full-Time"].indexOf(fullTime.current.value)
             })
-            }).then(resp => resp.json())
+            })
             .then(resp => {
-                if(resp.status !== 200){
-                    alert("Update failed");
-                }
-                else{
-                    setUserEmail(email.current.value);
-                }
-            });*/
-            setUserEmail(email.current.value);
+                setUserEmail(email.current.value);
+            });
         }
     }
 
