@@ -37,7 +37,7 @@ create table Display(
 create table Matches(
     first_id int, 
     second_id int,
-    compatability int, 
+    compatability float(64), 
     -- #// 1 for only first match, 2 for only second match , 3 for MATCH!! 
     match int
 );

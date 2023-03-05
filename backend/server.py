@@ -1,5 +1,5 @@
-from flask import Flask, request
-from query import get_user, get_matches, create_user
+from flask import Flask, request, jsonify
+from query import get_user, get_discover, create_user
 
 app = Flask(__name__)
 
@@ -13,10 +13,10 @@ def request1():
     return get_user()
 
 
-@app.route("/getMatches", methods=['GET'])
-def get_matches_request():
-    user_id = request.args.get('user_id')
-    return get_matches(user_id)
+@app.route("/getDiscover", methods=['GET'])
+def get_discover_request():
+    email = request.args.get('email')
+    return jsonify(get_discover(email))
 
 
 @app.route("/createUser", methods=['POST'])
