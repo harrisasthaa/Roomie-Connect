@@ -1,200 +1,200 @@
-0|Los Angeles, CA|0|0|2|Painting|Playing musical instruments|Listening to music|Finance|0|1591|1693|0|1
-1|New York, NY|0|0|0|Hiking|Volunteering|Collecting stamps|Accounting|0|511|3105|0|1
-2|New York, NY|1|3|0|Collecting stamps|Programming|Hiking|Marketing|0|1056|3147|0|0
-3|Los Angeles, CA|0|2|0|Programming|Collecting stamps|Horseback riding|Marketing|1|399|2956|1|0
-4|Los Angeles, CA|0|0|0|Reading|Watching movies|Photography|Chemistry|0|854|2484|1|1
-5|Phoenix, AZ|1|3|1|Sculpting|Playing musical instruments|Reading|Music|1|1745|2149|0|1
-6|Los Angeles, CA|0|2|2|Learning new languages|Playing board games|Traveling|Finance|0|242|1289|0|0
-7|Phoenix, AZ|0|0|1|Gardening|Volunteering|Yoga|History|0|716|3015|1|0
-8|Phoenix, AZ|1|1|0|Mediation|Horseback riding|Yoga|Animal Sciences|0|507|2273|1|1
-9|Phoenix, AZ|0|0|2|Playing musical instruments|Painting|Listening to music|Zoology|1|1478|2381|1|0
-10|Chicago, IL|1|3|2|Fishing|Gardening|Playing sports|Real Estate and Urban Land Economics|1|1619|1756|1|1
-11|Los Angeles, CA|0|3|0|Sculpting|Cooking|Yoga|Genetics|1|500|974|0|0
-12|New York, NY|1|3|0|Gardening|Fishing|Traveling|Art|1|1525|2449|1|1
-13|Los Angeles, CA|0|1|2|Dancing|Writing|Playing board games|Marketing|1|902|2647|1|0
-14|New York, NY|1|0|2|Horseback riding|Photography|Mediation|Agricultural Business Management|0|739|811|1|1
-15|Houston, TX|1|1|1|Reading|Photography|Horseback riding|Genetics|1|878|2515|0|0
-16|Los Angeles, CA|1|2|2|Collecting stamps|Photography|Playing musical instruments|Electrical Engineering|0|743|2071|1|0
-17|Chicago, IL|1|1|2|Cooking|Singing|Volunteering|Astronomy|0|1741|1845|1|1
-18|Houston, TX|0|0|2|Reading|Watching movies|Writing|Dance|0|876|2452|0|0
-19|Los Angeles, CA|0|2|2|Yoga|Traveling|Programming|Chemistry|1|734|2141|0|0
-20|New York, NY|0|3|2|Mediation|Horseback riding|Collecting stamps|Mechanical Engineering|0|685|2183|0|0
-21|Chicago, IL|1|3|0|Writing|Singing|Collecting coins|Zoology|1|1159|1382|0|0
-22|Phoenix, AZ|0|1|2|Learning new languages|Playing board games|Programming|Management and Human Resources|1|609|2159|1|1
-23|New York, NY|0|1|1|Cooking|Traveling|Volunteering|Real Estate and Urban Land Economics|0|1158|2243|0|1
-24|Chicago, IL|0|1|2|Yoga|Learning new languages|Volunteering|Medical Microbiology and Immunology|1|253|2960|1|0
-25|New York, NY|0|1|1|Hiking|Horseback riding|Gardening|Psychology|0|839|2561|1|0
-26|Los Angeles, CA|1|1|2|Fishing|Traveling|Horseback riding|Computer Engineering|0|1019|2366|1|0
-27|Houston, TX|1|2|2|Playing board games|Learning new languages|Volunteering|Kinesiology|1|336|2114|0|0
-28|Phoenix, AZ|1|3|1|Cooking|Mediation|Listening to music|Accounting|0|1015|1223|1|0
-29|Phoenix, AZ|1|2|0|Playing board games|Hiking|Mediation|Computer Engineering|1|1280|2249|0|1
-30|Houston, TX|1|0|2|Programming|Collecting stamps|Collecting coins|Nutritional Sciences|0|1207|2369|0|0
-31|Chicago, IL|0|1|0|Painting|Listening to music|Collecting stamps|Zoology|0|438|730|0|0
-32|Chicago, IL|1|3|1|Painting|Programming|Playing sports|Industrial and Systems Engineering|1|779|2373|0|1
-33|New York, NY|0|2|0|Playing musical instruments|Sculpting|Fishing|Astronomy|1|1099|2984|0|0
-34|New York, NY|0|0|0|Painting|Mediation|Collecting stamps|English|1|1242|1818|1|0
-35|Los Angeles, CA|1|3|0|Learning new languages|Singing|Sculpting|Dance|0|693|1839|1|0
-36|Los Angeles, CA|1|2|1|Gardening|Learning new languages|Playing musical instruments|Spanish|1|255|868|0|1
-37|Phoenix, AZ|1|2|2|Reading|Playing sports|Yoga|Music|0|901|1739|0|1
-38|Houston, TX|0|0|2|Writing|Photography|Fishing|Theatre and Drama|1|1639|1840|1|0
-39|Phoenix, AZ|1|1|0|Collecting stamps|Yoga|Hiking|Statistics|1|205|315|1|0
-40|Phoenix, AZ|0|3|1|Volunteering|Singing|Painting|Economics|1|1315|2943|1|0
-41|New York, NY|0|1|2|Cooking|Collecting stamps|Photography|Applied Mathematics|1|1444|3015|0|0
-42|Houston, TX|0|3|1|Playing board games|Programming|Yoga|Computer Engineering|1|473|1349|0|1
-43|Houston, TX|0|0|1|Yoga|Collecting coins|Horseback riding|Art|0|807|930|1|1
-44|Houston, TX|0|2|2|Programming|Watching movies|Singing|Psychology|0|299|975|1|0
-45|Houston, TX|1|1|2|Mediation|Reading|Cooking|Theatre and Drama|1|391|712|1|1
-46|Phoenix, AZ|1|2|0|Playing board games|Reading|Listening to music|Zoology|1|1544|1685|1|1
-47|Chicago, IL|1|3|1|Playing sports|Watching movies|Reading|Economics|1|652|1958|1|0
-48|Houston, TX|0|3|1|Yoga|Learning new languages|Fishing|Applied Mathematics|0|873|3141|0|1
-49|Los Angeles, CA|1|1|2|Collecting stamps|Painting|Playing sports|Dance|1|1504|2581|1|0
-50|New York, NY|1|2|1|Volunteering|Cooking|Collecting stamps|Theatre and Drama|1|1696|3148|0|1
-51|Chicago, IL|1|2|0|Yoga|Collecting coins|Sculpting|Management and Human Resources|1|1221|1397|0|0
-52|New York, NY|1|2|2|Playing board games|Playing musical instruments|Painting|Marketing|0|553|1393|1|0
-53|Houston, TX|1|3|1|Dancing|Hiking|Photography|Marketing|1|828|860|0|0
-54|New York, NY|0|0|2|Gardening|Playing sports|Painting|Environmental Sciences|0|1474|2270|1|0
-55|Houston, TX|0|0|1|Listening to music|Gardening|Collecting stamps|Music|1|710|2449|1|0
-56|Houston, TX|0|1|0|Volunteering|Collecting coins|Watching movies|Theatre and Drama|0|1640|2965|0|0
-57|Phoenix, AZ|1|2|1|Gardening|Dancing|Yoga|Zoology|0|625|1193|1|0
-58|Chicago, IL|1|3|1|Learning new languages|Dancing|Gardening|Real Estate and Urban Land Economics|1|1484|1938|0|0
-59|New York, NY|1|0|1|Photography|Playing musical instruments|Playing board games|Environmental Sciences|0|544|2010|0|1
-60|New York, NY|0|0|2|Writing|Mediation|Gardening|Animal Sciences|1|242|2221|0|1
-61|Phoenix, AZ|1|1|2|Collecting coins|Mediation|Photography|Materials Science and Engineering|1|434|956|0|0
-62|Chicago, IL|1|2|0|Dancing|Traveling|Reading|Zoology|0|456|2934|1|0
-63|Chicago, IL|1|0|2|Dancing|Gardening|Volunteering|Mechanical Engineering|0|1645|2292|0|0
-64|Houston, TX|0|1|2|Dancing|Gardening|Painting|Marketing|1|1654|2095|1|0
-65|Los Angeles, CA|0|2|0|Reading|Mediation|Cooking|Psychology|0|1354|3142|1|1
-66|Houston, TX|0|0|2|Traveling|Collecting coins|Cooking|Mechanical Engineering|1|1231|1791|0|1
-67|Los Angeles, CA|1|2|0|Playing board games|Cooking|Traveling|Physics|0|323|403|1|0
-68|Los Angeles, CA|1|0|2|Horseback riding|Photography|Traveling|Spanish|0|900|1287|0|0
-69|Chicago, IL|0|0|1|Hiking|Painting|Playing sports|Chemical Engineering|0|925|1730|0|0
-70|Phoenix, AZ|0|3|1|Fishing|Learning new languages|Singing|Kinesiology|1|335|914|0|1
-71|Los Angeles, CA|0|2|2|Fishing|Horseback riding|Reading|Dance|0|644|1942|1|0
-72|Los Angeles, CA|0|3|1|Collecting stamps|Programming|Reading|Finance|1|982|2869|0|1
-73|Los Angeles, CA|0|3|2|Gardening|Writing|Singing|Materials Science and Engineering|1|502|1022|0|1
-74|Chicago, IL|1|2|1|Writing|Singing|Horseback riding|International Studies|0|436|2171|1|0
-75|Phoenix, AZ|0|0|2|Photography|Painting|Watching movies|Chemical Engineering|0|402|1412|1|1
-76|Los Angeles, CA|1|2|2|Listening to music|Cooking|Playing musical instruments|Physics|0|996|1666|1|1
-77|New York, NY|0|1|0|Singing|Playing sports|Playing musical instruments|Finance|1|1081|1114|0|1
-78|Phoenix, AZ|1|2|1|Hiking|Learning new languages|Listening to music|Electrical Engineering|0|747|1508|0|1
-79|New York, NY|0|1|0|Programming|Listening to music|Collecting coins|International Studies|0|202|2266|0|1
-80|Chicago, IL|1|2|2|Programming|Cooking|Watching movies|Finance|0|1287|1473|1|1
-81|Houston, TX|1|2|1|Mediation|Collecting stamps|Programming|Biochemistry|1|1160|3131|0|1
-82|Houston, TX|1|3|0|Collecting stamps|Cooking|Mediation|Zoology|0|1795|2165|0|1
-83|Phoenix, AZ|0|3|2|Gardening|Programming|Volunteering|Electrical Engineering|0|607|2562|0|0
-84|Chicago, IL|1|1|1|Hiking|Gardening|Traveling|Spanish|1|1253|2947|0|0
-85|Los Angeles, CA|1|2|2|Writing|Painting|Listening to music|Finance|0|345|607|0|0
-86|Chicago, IL|0|2|2|Playing musical instruments|Yoga|Watching movies|Computer Engineering|0|1796|3033|0|1
-87|Phoenix, AZ|0|1|2|Volunteering|Singing|Reading|Computer Engineering|0|541|1887|1|1
-88|Los Angeles, CA|0|1|1|Painting|Listening to music|Collecting stamps|Neurobiology|1|1122|3039|1|0
-89|Los Angeles, CA|1|0|1|Reading|Singing|Yoga|Chemistry|0|277|1004|1|1
-90|New York, NY|0|2|1|Watching movies|Photography|Volunteering|Management and Human Resources|0|1778|2377|1|0
-91|Chicago, IL|1|0|2|Reading|Sculpting|Collecting stamps|Philosophy|0|850|3097|1|0
-92|Chicago, IL|1|0|1|Playing musical instruments|Fishing|Learning new languages|Marketing|0|277|2351|0|1
-93|Phoenix, AZ|1|3|1|Yoga|Learning new languages|Singing|Animal Sciences|1|461|2521|0|0
-94|Phoenix, AZ|1|2|0|Traveling|Watching movies|Learning new languages|Geography|1|838|2474|1|1
-95|Los Angeles, CA|1|2|2|Learning new languages|Cooking|Singing|Mechanical Engineering|1|1485|3175|0|1
-96|Chicago, IL|1|2|0|Fishing|Listening to music|Learning new languages|Philosophy|1|1371|1930|0|1
-97|Houston, TX|0|0|0|Programming|Cooking|Writing|Astronomy|0|732|1551|1|1
-98|Phoenix, AZ|0|2|1|Mediation|Traveling|Cooking|Linguistics|0|1235|1914|1|1
-99|Houston, TX|1|3|1|Playing sports|Watching movies|Listening to music|Astronomy|1|1209|2539|1|0
-100|Los Angeles, CA|1|2|2|Reading|Yoga|Fishing|Accounting|0|500|1407|0|1
-101|Chicago, IL|1|3|1|Yoga|Hiking|Volunteering|Zoology|1|247|2285|0|0
-102|Chicago, IL|1|2|1|Writing|Mediation|Volunteering|Theatre and Drama|0|1302|1750|1|1
-103|Houston, TX|1|3|1|Dancing|Sculpting|Painting|Applied Mathematics|1|760|3048|0|0
-104|Los Angeles, CA|1|0|1|Watching movies|Cooking|Traveling|English|0|456|1377|0|1
-105|Los Angeles, CA|0|3|2|Gardening|Playing musical instruments|Yoga|Electrical Engineering|1|570|812|0|0
-106|Los Angeles, CA|0|2|1|Learning new languages|Collecting coins|Reading|Biochemistry|0|1052|1980|0|1
-107|Chicago, IL|1|0|0|Playing board games|Fishing|Volunteering|Music|1|1158|2314|1|1
-108|New York, NY|0|0|0|Learning new languages|Horseback riding|Singing|Art|1|1091|2936|1|0
-109|New York, NY|0|2|2|Reading|Learning new languages|Dancing|Materials Science and Engineering|1|1322|2986|0|0
-110|Phoenix, AZ|1|3|2|Learning new languages|Sculpting|Yoga|Mathematics|1|200|333|0|1
-111|Chicago, IL|0|0|0|Watching movies|Fishing|Mediation|Geography|0|1398|2769|0|0
-112|New York, NY|0|1|0|Watching movies|Playing musical instruments|Traveling|Computer Engineering|0|805|1541|1|1
-113|New York, NY|0|2|0|Fishing|Hiking|Collecting coins|Computer Engineering|1|673|1132|0|1
-114|Chicago, IL|0|1|0|Writing|Painting|Sculpting|Management and Human Resources|1|819|2406|0|0
-115|Chicago, IL|0|3|2|Writing|Traveling|Collecting coins|Elementary Education|1|1057|2415|0|1
-116|New York, NY|1|1|1|Mediation|Gardening|Fishing|Medical Microbiology and Immunology|0|1283|2934|1|0
-117|Los Angeles, CA|1|3|0|Playing sports|Volunteering|Programming|Real Estate and Urban Land Economics|0|1090|2607|0|0
-118|Phoenix, AZ|1|1|1|Traveling|Programming|Dancing|Biochemistry|1|941|2952|1|0
-119|Los Angeles, CA|0|0|1|Singing|Cooking|Writing|Sociology|1|835|1264|1|0
-120|Chicago, IL|1|1|2|Learning new languages|Gardening|Playing sports|Geography|1|1042|1592|1|1
-121|Chicago, IL|0|1|2|Volunteering|Cooking|Collecting coins|Biomedical Engineering|1|1675|1892|0|1
-122|Phoenix, AZ|0|3|0|Learning new languages|Sculpting|Writing|Neurobiology|0|807|859|0|1
-123|New York, NY|0|1|0|Reading|Mediation|Playing musical instruments|Chemical Engineering|0|1230|2241|0|1
-124|Los Angeles, CA|1|0|1|Horseback riding|Gardening|Writing|Animal Sciences|1|969|1151|1|0
-125|Los Angeles, CA|1|3|0|Horseback riding|Singing|Yoga|Computer Engineering|1|513|1439|0|1
-126|Chicago, IL|1|1|1|Playing sports|Horseback riding|Listening to music|Civil Engineering|0|894|1314|0|0
-127|Houston, TX|0|3|2|Mediation|Writing|Learning new languages|Linguistics|0|1637|2436|1|0
-128|Chicago, IL|0|3|1|Painting|Horseback riding|Collecting coins|Psychology|1|622|1866|0|0
-129|Phoenix, AZ|1|3|1|Writing|Yoga|Hiking|Accounting|0|746|3128|1|1
-130|Houston, TX|1|2|1|Collecting stamps|Cooking|Gardening|Zoology|0|286|716|0|1
-131|Phoenix, AZ|1|1|0|Volunteering|Dancing|Traveling|Economics|1|940|1376|0|1
-132|Chicago, IL|1|1|0|Watching movies|Programming|Mediation|Genetics|0|673|1678|0|0
-133|Phoenix, AZ|0|3|1|Writing|Yoga|Programming|Accounting|1|537|3089|1|0
-134|New York, NY|1|1|0|Cooking|Collecting coins|Programming|Nutritional Sciences|0|629|1671|1|1
-135|Phoenix, AZ|0|1|1|Hiking|Fishing|Watching movies|Biochemistry|0|814|1298|0|1
-136|New York, NY|0|3|1|Reading|Collecting stamps|Learning new languages|Journalism and Mass Communication|0|1690|2872|0|1
-137|Chicago, IL|0|1|1|Horseback riding|Playing board games|Cooking|Real Estate and Urban Land Economics|1|1082|1321|1|1
-138|New York, NY|0|1|0|Programming|Dancing|Singing|Genetics|1|778|2644|0|1
-139|Los Angeles, CA|0|0|1|Photography|Reading|Collecting coins|English|1|527|2441|0|1
-140|Chicago, IL|1|1|2|Gardening|Horseback riding|Traveling|Zoology|1|1308|1678|0|1
-141|Los Angeles, CA|1|1|0|Reading|Fishing|Collecting stamps|Applied Mathematics|0|329|889|0|0
-142|Phoenix, AZ|1|0|0|Watching movies|Playing sports|Collecting stamps|Real Estate and Urban Land Economics|1|377|3016|1|0
-143|Phoenix, AZ|1|1|2|Playing sports|Listening to music|Learning new languages|English|0|1408|2098|0|1
-144|Los Angeles, CA|0|2|0|Playing sports|Yoga|Learning new languages|Neurobiology|0|833|2183|1|1
-145|Los Angeles, CA|1|1|0|Horseback riding|Dancing|Sculpting|Economics|0|1765|2775|1|0
-146|Phoenix, AZ|0|1|0|Gardening|Watching movies|Writing|Chemistry|0|438|596|0|1
-147|Los Angeles, CA|1|1|2|Fishing|Horseback riding|Yoga|Animal Sciences|1|651|1683|1|1
-148|Chicago, IL|0|2|1|Sculpting|Writing|Traveling|Marketing|1|1399|2458|1|0
-149|Houston, TX|0|0|0|Cooking|Volunteering|Collecting coins|Spanish|0|744|2990|0|0
-150|New York, NY|0|1|0|Photography|Yoga|Writing|Computer Science|0|662|902|0|0
-151|Los Angeles, CA|0|1|1|Gardening|Playing sports|Watching movies|International Studies|0|1079|1981|0|0
-152|New York, NY|1|3|0|Collecting coins|Cooking|Writing|English|1|553|2501|0|0
-153|Chicago, IL|0|2|2|Singing|Collecting stamps|Dancing|Finance|0|1155|3039|0|1
-154|Los Angeles, CA|0|1|2|Painting|Sculpting|Yoga|Genetics|0|575|3085|1|1
-155|New York, NY|1|3|0|Writing|Collecting coins|Gardening|Chemistry|0|472|3195|0|0
-156|Phoenix, AZ|0|3|1|Listening to music|Playing musical instruments|Playing board games|Economics|0|1240|2123|0|0
-157|New York, NY|0|3|1|Volunteering|Sculpting|Hiking|Industrial and Systems Engineering|0|1556|2707|0|1
-158|Houston, TX|1|3|2|Programming|Hiking|Watching movies|Management and Human Resources|1|1535|1612|1|0
-159|Houston, TX|0|2|1|Playing sports|Singing|Writing|Sociology|0|1078|2012|0|1
-160|Phoenix, AZ|1|3|1|Collecting coins|Programming|Cooking|Applied Mathematics|0|1283|1989|0|1
-161|New York, NY|1|1|2|Horseback riding|Mediation|Playing board games|Statistics|1|1249|2496|0|1
-162|Phoenix, AZ|0|0|0|Hiking|Playing board games|Yoga|Nursing|0|314|456|0|1
-163|Los Angeles, CA|1|1|2|Collecting coins|Fishing|Collecting stamps|Journalism and Mass Communication|1|1062|2660|1|0
-164|Chicago, IL|1|2|1|Singing|Playing board games|Collecting stamps|Economics|1|907|1832|1|0
-165|Los Angeles, CA|1|2|0|Horseback riding|Learning new languages|Yoga|Applied Mathematics|0|1439|1689|1|1
-166|Los Angeles, CA|0|1|1|Fishing|Watching movies|Programming|Zoology|0|751|2102|0|1
-167|Houston, TX|1|2|0|Volunteering|Mediation|Playing board games|Linguistics|1|1396|3060|0|1
-168|New York, NY|1|2|0|Gardening|Collecting coins|Yoga|Environmental Sciences|0|286|1056|1|0
-169|Phoenix, AZ|0|3|0|Sculpting|Learning new languages|Dancing|Geography|1|549|2350|0|1
-170|Chicago, IL|1|1|1|Singing|Cooking|Collecting stamps|Biomedical Engineering|0|241|3027|0|1
-171|Chicago, IL|0|0|2|Painting|Reading|Mediation|History|0|1228|3076|0|0
-172|Los Angeles, CA|0|1|1|Playing sports|Collecting coins|Yoga|Electrical Engineering|1|667|1229|0|1
-173|Chicago, IL|0|2|0|Reading|Traveling|Playing musical instruments|Animal Sciences|0|420|1293|1|0
-174|Houston, TX|1|1|1|Learning new languages|Writing|Horseback riding|Sociology|1|250|1389|1|0
-175|Los Angeles, CA|1|2|2|Yoga|Writing|Learning new languages|Political Science|1|765|3027|1|0
-176|Phoenix, AZ|0|2|1|Playing musical instruments|Volunteering|Fishing|Applied Mathematics|0|1688|2556|0|1
-177|Phoenix, AZ|1|0|2|Painting|Playing sports|Photography|Biomedical Engineering|0|928|2791|1|0
-178|Houston, TX|0|0|1|Mediation|Collecting stamps|Writing|Electrical Engineering|0|1563|2196|1|0
-179|Los Angeles, CA|0|1|0|Cooking|Yoga|Collecting coins|Biomedical Engineering|1|1037|1264|1|1
-180|New York, NY|1|0|0|Sculpting|Playing sports|Singing|Agricultural Business Management|0|547|621|1|1
-181|Phoenix, AZ|1|3|2|Gardening|Traveling|Yoga|Geology|0|679|2175|0|1
-182|Houston, TX|1|0|0|Writing|Hiking|Watching movies|Sociology|0|609|2965|1|1
-183|Los Angeles, CA|0|3|1|Playing sports|Fishing|Cooking|Geography|0|277|2806|0|0
-184|Houston, TX|0|1|0|Photography|Listening to music|Volunteering|Medical Microbiology and Immunology|0|1161|1517|1|1
-185|Chicago, IL|1|3|1|Reading|Collecting stamps|Gardening|Medical Microbiology and Immunology|0|976|2942|0|1
-186|Houston, TX|0|1|2|Cooking|Collecting stamps|Playing board games|Art|0|928|2718|0|1
-187|New York, NY|0|1|1|Singing|Playing musical instruments|Programming|Art|0|1469|1639|0|0
-188|Phoenix, AZ|0|0|1|Playing board games|Singing|Programming|Economics|1|1071|1844|0|0
-189|Chicago, IL|0|1|0|Writing|Collecting stamps|Gardening|Spanish|1|456|2221|1|0
-190|Chicago, IL|0|3|2|Collecting stamps|Mediation|Singing|Physics|0|214|3146|0|1
-191|Chicago, IL|1|0|2|Watching movies|Yoga|Sculpting|Mathematics|1|323|1161|0|1
-192|Los Angeles, CA|0|1|1|Painting|Mediation|Learning new languages|Computer Engineering|0|791|975|0|1
-193|Phoenix, AZ|1|2|1|Gardening|Photography|Traveling|Elementary Education|0|1767|2381|1|0
-194|Houston, TX|1|1|1|Yoga|Dancing|Reading|Elementary Education|1|658|1452|0|1
-195|New York, NY|1|2|0|Playing sports|Reading|Playing board games|Philosophy|0|481|831|0|0
-196|Phoenix, AZ|0|3|0|Reading|Singing|Volunteering|Music|1|739|3183|0|0
-197|New York, NY|1|3|1|Collecting stamps|Learning new languages|Collecting coins|Medical Microbiology and Immunology|0|1385|2957|1|1
-198|Phoenix, AZ|0|3|2|Traveling|Sculpting|Horseback riding|Mathematics|1|511|1150|1|1
-199|Houston, TX|1|2|2|Watching movies|Horseback riding|Photography|Neurobiology|1|576|814|1|1
+0|Phoenix, AZ|0|1|0|Dancing|Collecting coins|Playing board games|Neurobiology|1|982|2576|0|1
+1|New York, NY|0|3|0|Playing musical instruments|Playing board games|Listening to music|Environmental Sciences|0|797|2657|0|0
+2|Los Angeles, CA|0|1|0|Learning new languages|Collecting stamps|Singing|Journalism and Mass Communication|1|590|2258|0|1
+3|Chicago, IL|0|0|1|Cooking|Reading|Gardening|Chemistry|1|1219|2627|0|1
+4|Houston, TX|0|1|0|Reading|Writing|Mediation|Nutritional Sciences|1|383|2363|1|0
+5|Phoenix, AZ|1|3|0|Writing|Listening to music|Watching movies|International Studies|1|1094|2376|1|0
+6|Phoenix, AZ|1|2|1|Photography|Hiking|Playing board games|Sociology|1|588|1579|1|0
+7|Los Angeles, CA|0|0|0|Hiking|Sculpting|Writing|Materials Science and Engineering|0|1240|1541|1|0
+8|New York, NY|1|0|1|Yoga|Volunteering|Traveling|Chemical Engineering|0|1254|2203|1|0
+9|Phoenix, AZ|1|0|2|Mediation|Horseback riding|Singing|Art|0|305|981|0|1
+10|Los Angeles, CA|0|0|0|Collecting stamps|Dancing|Programming|Neurobiology|1|1346|1756|1|1
+11|Phoenix, AZ|1|2|1|Painting|Photography|Programming|Geology|1|928|1045|1|1
+12|Los Angeles, CA|1|0|1|Gardening|Reading|Dancing|Management and Human Resources|1|1137|2149|1|0
+13|Los Angeles, CA|0|2|2|Traveling|Playing sports|Hiking|Applied Mathematics|0|1221|2405|0|1
+14|Los Angeles, CA|0|3|0|Traveling|Playing board games|Playing sports|Mechanical Engineering|1|1736|2739|0|1
+15|Los Angeles, CA|0|2|0|Photography|Singing|Hiking|Geology|1|869|2572|0|0
+16|New York, NY|0|1|0|Hiking|Playing musical instruments|Playing board games|Mathematics|1|799|2738|0|1
+17|Phoenix, AZ|1|2|0|Collecting stamps|Cooking|Singing|Elementary Education|0|1161|2710|1|1
+18|Chicago, IL|0|2|2|Fishing|Volunteering|Reading|Nursing|0|714|2122|1|0
+19|Los Angeles, CA|1|3|2|Playing musical instruments|Hiking|Sculpting|Agricultural Business Management|1|409|2003|0|1
+20|New York, NY|1|0|1|Writing|Collecting coins|Volunteering|Finance|1|232|1600|0|0
+21|New York, NY|0|3|1|Cooking|Horseback riding|Sculpting|Mechanical Engineering|1|286|1656|0|0
+22|New York, NY|1|3|0|Cooking|Mediation|Playing board games|Philosophy|0|730|1502|1|1
+23|Houston, TX|1|1|0|Listening to music|Playing sports|Writing|Sociology|0|1340|1991|1|1
+24|Chicago, IL|1|0|0|Fishing|Gardening|Mediation|Finance|0|676|2477|0|1
+25|Houston, TX|0|2|1|Dancing|Photography|Collecting stamps|Applied Mathematics|0|1315|2961|1|0
+26|Phoenix, AZ|1|3|1|Volunteering|Dancing|Painting|Biomedical Engineering|1|353|1573|1|1
+27|Los Angeles, CA|0|1|2|Cooking|Mediation|Singing|Marketing|0|286|2407|0|0
+28|New York, NY|1|0|1|Cooking|Collecting stamps|Hiking|Philosophy|1|1472|1548|1|0
+29|New York, NY|1|2|2|Dancing|Traveling|Gardening|Zoology|0|733|1720|1|0
+30|Chicago, IL|1|2|0|Singing|Listening to music|Writing|Zoology|0|318|732|0|0
+31|Chicago, IL|0|0|1|Playing musical instruments|Painting|Programming|Agricultural Business Management|1|261|1645|0|0
+32|Phoenix, AZ|0|1|0|Horseback riding|Playing musical instruments|Mediation|Neurobiology|0|1687|1912|1|1
+33|New York, NY|1|3|1|Programming|Traveling|Playing musical instruments|Genetics|1|1363|2848|0|1
+34|Phoenix, AZ|1|3|1|Singing|Collecting stamps|Sculpting|Nursing|1|1722|2589|0|0
+35|Chicago, IL|0|1|1|Reading|Dancing|Mediation|Geography|0|871|1782|1|0
+36|Chicago, IL|1|2|2|Cooking|Writing|Reading|Agricultural Business Management|1|343|1152|0|0
+37|Chicago, IL|1|1|0|Gardening|Sculpting|Writing|Industrial and Systems Engineering|1|571|1309|0|1
+38|Los Angeles, CA|0|3|0|Writing|Playing sports|Collecting coins|Theatre and Drama|1|749|916|0|1
+39|Phoenix, AZ|1|2|0|Learning new languages|Dancing|Horseback riding|Philosophy|1|432|2887|1|1
+40|Chicago, IL|0|3|2|Sculpting|Fishing|Playing board games|Physics|0|572|1752|1|1
+41|Phoenix, AZ|1|2|1|Gardening|Playing musical instruments|Fishing|Statistics|0|671|3179|1|1
+42|Phoenix, AZ|1|2|2|Writing|Painting|Fishing|Computer Science|1|1498|2362|0|1
+43|New York, NY|1|2|2|Fishing|Traveling|Playing board games|Journalism and Mass Communication|0|1630|1900|0|1
+44|New York, NY|0|0|2|Playing musical instruments|Listening to music|Collecting coins|Electrical Engineering|1|1584|2517|1|0
+45|Phoenix, AZ|0|3|0|Singing|Learning new languages|Playing board games|Music|1|244|663|1|0
+46|New York, NY|0|2|0|Programming|Cooking|Writing|Music|1|976|1017|0|0
+47|Phoenix, AZ|0|3|2|Playing board games|Painting|Writing|Spanish|1|1702|2687|0|0
+48|Chicago, IL|0|1|2|Painting|Playing musical instruments|Collecting coins|Neurobiology|0|1286|2903|1|0
+49|New York, NY|1|3|2|Playing board games|Fishing|Horseback riding|Materials Science and Engineering|0|1194|2672|1|1
+50|Los Angeles, CA|0|2|0|Learning new languages|Playing musical instruments|Dancing|International Studies|1|1425|2758|0|0
+51|New York, NY|0|0|2|Volunteering|Dancing|Traveling|Genetics|0|661|1132|1|0
+52|Chicago, IL|0|3|0|Photography|Learning new languages|Fishing|Real Estate and Urban Land Economics|0|348|2008|1|1
+53|Houston, TX|0|2|2|Singing|Cooking|Watching movies|Genetics|0|614|3070|0|0
+54|Phoenix, AZ|0|0|1|Sculpting|Learning new languages|Volunteering|Linguistics|0|1209|2590|0|0
+55|Houston, TX|1|3|1|Reading|Yoga|Watching movies|Medical Microbiology and Immunology|1|1171|1871|1|1
+56|Chicago, IL|0|3|1|Yoga|Dancing|Writing|Zoology|1|1032|1793|0|1
+57|New York, NY|1|0|0|Writing|Playing board games|Listening to music|Real Estate and Urban Land Economics|0|734|1893|1|1
+58|Los Angeles, CA|0|1|0|Painting|Watching movies|Programming|History|0|1572|2336|1|0
+59|Phoenix, AZ|0|3|2|Photography|Writing|Collecting coins|Electrical Engineering|1|1011|2661|1|0
+60|New York, NY|1|1|1|Playing musical instruments|Collecting stamps|Listening to music|Biochemistry|0|1308|1919|0|0
+61|Phoenix, AZ|1|0|1|Photography|Programming|Writing|Medical Microbiology and Immunology|0|1482|2821|0|1
+62|New York, NY|1|3|0|Reading|Collecting stamps|Fishing|Biochemistry|1|395|1759|1|1
+63|Houston, TX|1|2|1|Playing sports|Yoga|Photography|Dance|0|1283|2741|1|0
+64|New York, NY|1|2|2|Playing board games|Listening to music|Mediation|Chemical Engineering|0|927|1612|0|0
+65|Los Angeles, CA|0|2|2|Watching movies|Fishing|Listening to music|Zoology|1|665|911|0|1
+66|Los Angeles, CA|0|0|1|Horseback riding|Playing musical instruments|Playing board games|Nursing|0|607|1830|0|0
+67|Phoenix, AZ|0|1|0|Reading|Collecting stamps|Dancing|Chemical Engineering|0|1346|2942|0|0
+68|Chicago, IL|1|0|1|Traveling|Playing sports|Gardening|Geography|1|663|927|1|0
+69|Phoenix, AZ|0|2|2|Traveling|Hiking|Writing|Sociology|0|874|3075|0|1
+70|Chicago, IL|0|1|2|Collecting stamps|Cooking|Singing|Theatre and Drama|0|710|1577|0|1
+71|Los Angeles, CA|0|3|2|Playing musical instruments|Programming|Yoga|Zoology|1|215|2774|0|1
+72|Chicago, IL|0|0|2|Sculpting|Writing|Yoga|History|0|1748|2386|1|0
+73|Chicago, IL|1|3|0|Dancing|Mediation|Traveling|Chemistry|1|379|3138|0|0
+74|Los Angeles, CA|0|2|2|Yoga|Mediation|Traveling|Zoology|1|495|1320|1|1
+75|Los Angeles, CA|1|0|0|Playing musical instruments|Reading|Playing sports|Computer Science|0|200|1293|1|1
+76|Phoenix, AZ|0|3|0|Listening to music|Programming|Playing sports|Mechanical Engineering|0|1014|1021|0|0
+77|Phoenix, AZ|1|0|0|Mediation|Hiking|Painting|Environmental Sciences|0|395|1273|0|0
+78|Houston, TX|0|0|2|Fishing|Playing musical instruments|Cooking|Agricultural Business Management|1|1098|1749|0|1
+79|Chicago, IL|0|1|0|Reading|Dancing|Photography|History|0|615|1309|1|1
+80|New York, NY|1|3|0|Gardening|Programming|Listening to music|Applied Mathematics|1|1402|1514|1|0
+81|New York, NY|1|0|2|Painting|Collecting coins|Playing musical instruments|Biomedical Engineering|1|1409|2002|0|1
+82|New York, NY|0|1|0|Playing sports|Listening to music|Collecting coins|Dance|1|237|1078|1|1
+83|Los Angeles, CA|0|3|1|Singing|Traveling|Yoga|Physics|0|361|2222|1|1
+84|New York, NY|0|2|1|Playing sports|Programming|Horseback riding|Zoology|1|844|1537|0|1
+85|New York, NY|0|2|2|Collecting stamps|Traveling|Writing|Art|0|1615|1887|0|1
+86|Phoenix, AZ|1|1|0|Playing sports|Yoga|Singing|English|1|306|2742|1|0
+87|Chicago, IL|1|2|2|Learning new languages|Listening to music|Watching movies|Animal Sciences|1|1773|3124|1|1
+88|Los Angeles, CA|1|2|1|Watching movies|Yoga|Collecting stamps|Electrical Engineering|0|360|1739|1|1
+89|Chicago, IL|1|1|1|Cooking|Mediation|Collecting coins|Linguistics|0|1491|2260|0|1
+90|Los Angeles, CA|1|3|2|Painting|Fishing|Horseback riding|Linguistics|0|688|2008|0|0
+91|New York, NY|1|1|1|Playing musical instruments|Photography|Mediation|Genetics|0|1742|2426|1|1
+92|Phoenix, AZ|1|0|1|Gardening|Singing|Mediation|Medical Microbiology and Immunology|0|955|1478|1|1
+93|Chicago, IL|1|0|1|Cooking|Traveling|Collecting coins|Sociology|1|1077|1507|0|0
+94|Chicago, IL|0|3|0|Collecting stamps|Writing|Painting|Biochemistry|1|948|1219|0|1
+95|Houston, TX|1|3|1|Singing|Fishing|Sculpting|Kinesiology|0|225|3143|0|0
+96|Houston, TX|1|3|1|Playing sports|Horseback riding|Yoga|Elementary Education|0|1768|2999|0|0
+97|Chicago, IL|1|3|2|Collecting stamps|Photography|Sculpting|Spanish|1|1337|2152|0|1
+98|Phoenix, AZ|0|3|2|Horseback riding|Hiking|Listening to music|Geology|0|1295|2511|0|0
+99|Phoenix, AZ|1|3|0|Photography|Collecting stamps|Singing|Civil Engineering|0|1153|1426|1|1
+100|Houston, TX|1|1|0|Learning new languages|Sculpting|Watching movies|Elementary Education|1|656|2279|1|0
+101|Houston, TX|1|0|1|Reading|Painting|Playing musical instruments|Zoology|0|1214|1833|0|1
+102|Los Angeles, CA|1|1|1|Fishing|Playing musical instruments|Playing board games|Neurobiology|0|1712|1977|1|0
+103|Houston, TX|0|1|1|Gardening|Collecting stamps|Listening to music|Real Estate and Urban Land Economics|1|1137|3083|0|1
+104|New York, NY|1|2|0|Sculpting|Singing|Learning new languages|Economics|0|714|1655|1|0
+105|New York, NY|1|3|2|Playing board games|Programming|Painting|History|0|1650|2331|0|1
+106|Los Angeles, CA|1|0|1|Playing musical instruments|Painting|Dancing|Geography|0|1495|2805|1|1
+107|Houston, TX|1|1|0|Traveling|Horseback riding|Playing sports|Astronomy|0|389|1807|0|1
+108|Houston, TX|1|2|2|Singing|Mediation|Yoga|Sociology|1|1607|2110|0|0
+109|Los Angeles, CA|1|3|0|Yoga|Hiking|Playing sports|Industrial and Systems Engineering|0|883|1073|0|1
+110|New York, NY|0|3|0|Watching movies|Sculpting|Volunteering|Linguistics|1|1414|2135|0|0
+111|Chicago, IL|1|2|0|Mediation|Playing musical instruments|Cooking|Medical Microbiology and Immunology|1|1029|1650|1|1
+112|Houston, TX|0|1|2|Horseback riding|Traveling|Mediation|English|1|1562|2369|0|0
+113|Chicago, IL|1|1|0|Horseback riding|Collecting stamps|Sculpting|Genetics|0|598|734|1|1
+114|Houston, TX|1|2|0|Reading|Dancing|Photography|Marketing|1|507|2095|1|0
+115|Houston, TX|0|0|2|Reading|Horseback riding|Painting|Computer Engineering|1|1285|1827|1|0
+116|Houston, TX|0|2|1|Horseback riding|Collecting coins|Playing board games|Animal Sciences|0|343|2126|0|1
+117|Houston, TX|1|1|2|Traveling|Photography|Playing sports|Zoology|1|286|1674|0|0
+118|Chicago, IL|0|3|1|Watching movies|Gardening|Horseback riding|Animal Sciences|1|1722|3026|1|1
+119|Chicago, IL|0|1|1|Yoga|Reading|Hiking|Animal Sciences|0|1155|1265|1|1
+120|Phoenix, AZ|1|3|0|Gardening|Dancing|Watching movies|Economics|1|1626|1779|1|1
+121|Phoenix, AZ|1|0|1|Sculpting|Volunteering|Learning new languages|Physics|1|1631|2238|1|0
+122|Houston, TX|0|2|2|Horseback riding|Collecting coins|Yoga|Accounting|1|1691|2030|1|1
+123|Phoenix, AZ|0|3|1|Yoga|Hiking|Collecting coins|Marketing|1|1423|3035|0|0
+124|Chicago, IL|1|2|1|Playing board games|Playing sports|Collecting stamps|Biomedical Engineering|1|951|2480|1|1
+125|New York, NY|1|1|0|Collecting stamps|Playing board games|Listening to music|English|1|834|3050|0|1
+126|Houston, TX|1|2|1|Fishing|Playing sports|Learning new languages|Philosophy|1|358|975|0|0
+127|Chicago, IL|0|0|1|Playing sports|Collecting stamps|Cooking|Industrial and Systems Engineering|0|867|2826|0|1
+128|Phoenix, AZ|1|3|2|Volunteering|Mediation|Painting|Biochemistry|1|848|2996|1|1
+129|Los Angeles, CA|1|0|2|Learning new languages|Watching movies|Sculpting|Kinesiology|0|427|633|0|0
+130|Phoenix, AZ|1|2|2|Yoga|Sculpting|Writing|Elementary Education|1|979|2235|0|1
+131|Chicago, IL|0|0|0|Cooking|Singing|Yoga|Kinesiology|1|1406|2908|0|0
+132|Los Angeles, CA|0|3|0|Writing|Photography|Gardening|Mechanical Engineering|1|790|870|1|1
+133|New York, NY|1|2|2|Gardening|Horseback riding|Writing|Biochemistry|1|749|3158|1|1
+134|Houston, TX|1|0|1|Hiking|Collecting stamps|Singing|Music|0|558|1862|1|0
+135|Phoenix, AZ|1|0|1|Playing sports|Learning new languages|Hiking|Real Estate and Urban Land Economics|0|342|1658|0|1
+136|Chicago, IL|0|1|0|Reading|Watching movies|Playing sports|Genetics|0|1306|2765|1|0
+137|New York, NY|1|0|2|Singing|Playing musical instruments|Collecting stamps|Animal Sciences|1|880|1586|1|0
+138|Los Angeles, CA|1|2|0|Collecting coins|Sculpting|Dancing|Economics|0|971|1126|0|0
+139|Los Angeles, CA|0|2|2|Gardening|Singing|Mediation|Real Estate and Urban Land Economics|1|1113|1143|0|0
+140|Phoenix, AZ|1|2|2|Photography|Watching movies|Programming|Elementary Education|0|1348|3007|0|0
+141|New York, NY|1|0|1|Hiking|Volunteering|Playing musical instruments|Mathematics|1|1464|3048|0|1
+142|New York, NY|0|0|2|Reading|Mediation|Gardening|Nutritional Sciences|0|326|1406|0|0
+143|Los Angeles, CA|1|0|1|Watching movies|Reading|Programming|Mathematics|0|1350|2728|0|0
+144|Los Angeles, CA|0|3|0|Mediation|Watching movies|Playing musical instruments|Political Science|1|1321|2687|0|1
+145|Los Angeles, CA|0|0|2|Reading|Writing|Collecting stamps|Environmental Sciences|1|1756|3016|1|1
+146|Los Angeles, CA|0|1|2|Playing sports|Writing|Listening to music|Astronomy|0|332|2090|1|1
+147|Los Angeles, CA|0|1|2|Gardening|Dancing|Photography|Theatre and Drama|0|1297|1506|0|1
+148|Phoenix, AZ|1|3|0|Photography|Gardening|Singing|Mathematics|0|220|2227|1|1
+149|New York, NY|0|2|0|Photography|Playing board games|Sculpting|Nursing|1|948|2037|0|1
+150|Chicago, IL|1|0|0|Painting|Playing musical instruments|Collecting coins|Electrical Engineering|1|664|2232|0|1
+151|Chicago, IL|1|3|1|Photography|Learning new languages|Fishing|Philosophy|1|1206|1699|0|0
+152|Los Angeles, CA|0|0|1|Cooking|Learning new languages|Fishing|Dance|1|520|2356|0|1
+153|Phoenix, AZ|1|1|1|Watching movies|Playing sports|Writing|Zoology|0|332|2331|1|1
+154|Los Angeles, CA|0|3|1|Photography|Painting|Playing musical instruments|Nutritional Sciences|1|1095|1735|1|1
+155|Phoenix, AZ|1|0|0|Playing musical instruments|Cooking|Gardening|Political Science|0|1482|2206|0|1
+156|Phoenix, AZ|1|3|2|Mediation|Writing|Watching movies|Mechanical Engineering|1|456|2104|1|1
+157|Chicago, IL|1|3|2|Singing|Painting|Playing musical instruments|Accounting|0|1155|3145|0|0
+158|Houston, TX|0|3|1|Volunteering|Cooking|Listening to music|Economics|1|1433|1488|1|0
+159|New York, NY|0|0|1|Programming|Listening to music|Photography|Economics|0|452|1637|0|0
+160|New York, NY|1|0|0|Learning new languages|Horseback riding|Photography|Geography|0|1059|1967|1|1
+161|New York, NY|0|0|0|Sculpting|Volunteering|Playing sports|Theatre and Drama|1|404|1161|0|0
+162|Phoenix, AZ|0|2|1|Playing sports|Watching movies|Collecting stamps|Industrial and Systems Engineering|0|675|860|0|0
+163|New York, NY|1|1|0|Collecting coins|Reading|Traveling|Nutritional Sciences|1|473|1542|0|1
+164|Chicago, IL|0|2|1|Sculpting|Playing musical instruments|Volunteering|Biochemistry|1|537|2307|1|0
+165|Chicago, IL|1|2|2|Dancing|Singing|Mediation|Zoology|0|561|2236|1|0
+166|New York, NY|0|3|0|Sculpting|Collecting coins|Photography|Geology|0|329|2135|1|1
+167|Los Angeles, CA|0|0|0|Sculpting|Photography|Hiking|Elementary Education|0|1146|2529|1|1
+168|Houston, TX|0|2|2|Volunteering|Hiking|Dancing|Environmental Sciences|1|680|1568|0|1
+169|Los Angeles, CA|1|0|0|Sculpting|Listening to music|Learning new languages|Civil Engineering|0|507|2552|0|1
+170|New York, NY|1|0|2|Writing|Fishing|Collecting stamps|Computer Science|0|684|1384|0|1
+171|Chicago, IL|0|2|0|Gardening|Painting|Playing sports|Chemistry|0|1301|2526|0|1
+172|Houston, TX|1|3|1|Playing musical instruments|Gardening|Singing|Neurobiology|1|281|3077|1|1
+173|Chicago, IL|0|3|2|Traveling|Dancing|Playing board games|Biochemistry|1|765|2705|0|1
+174|New York, NY|0|3|2|Dancing|Yoga|Fishing|Zoology|1|243|1976|0|0
+175|Los Angeles, CA|0|3|0|Collecting stamps|Writing|Gardening|Civil Engineering|0|279|2345|1|0
+176|Houston, TX|0|2|2|Yoga|Writing|Painting|Art|0|1664|1802|1|0
+177|New York, NY|0|1|0|Sculpting|Photography|Volunteering|English|1|684|1946|1|0
+178|Los Angeles, CA|1|1|2|Collecting stamps|Horseback riding|Volunteering|Civil Engineering|0|669|1358|1|0
+179|Phoenix, AZ|1|0|2|Hiking|Traveling|Playing sports|Sociology|1|828|1895|1|0
+180|New York, NY|0|2|1|Mediation|Painting|Volunteering|Geology|1|1556|2613|0|0
+181|Phoenix, AZ|1|3|1|Volunteering|Photography|Playing board games|Spanish|1|499|1278|1|1
+182|Houston, TX|0|2|1|Collecting coins|Horseback riding|Collecting stamps|Psychology|1|1000|1990|0|1
+183|Chicago, IL|0|0|1|Collecting coins|Cooking|Yoga|Marketing|0|468|2869|1|1
+184|Chicago, IL|1|3|1|Watching movies|Horseback riding|Collecting stamps|Mathematics|0|1434|2396|1|0
+185|Phoenix, AZ|1|1|0|Traveling|Cooking|Mediation|Journalism and Mass Communication|0|205|2117|1|0
+186|Chicago, IL|1|0|0|Programming|Collecting coins|Watching movies|Art|1|1398|2185|0|1
+187|New York, NY|1|1|0|Hiking|Horseback riding|Singing|Elementary Education|1|214|2649|1|0
+188|Houston, TX|1|2|1|Horseback riding|Programming|Collecting stamps|Industrial and Systems Engineering|1|1576|2600|1|0
+189|Los Angeles, CA|1|0|2|Writing|Photography|Horseback riding|Chemical Engineering|1|1165|2775|0|0
+190|Phoenix, AZ|0|2|0|Watching movies|Reading|Writing|Finance|1|1359|3132|1|0
+191|Houston, TX|1|1|1|Hiking|Singing|Learning new languages|Linguistics|0|1174|1771|1|1
+192|New York, NY|0|3|0|Horseback riding|Gardening|Collecting coins|Agricultural Business Management|0|1391|1715|0|0
+193|Houston, TX|1|0|2|Photography|Sculpting|Reading|Geography|0|1738|3140|1|0
+194|New York, NY|1|1|1|Listening to music|Mediation|Hiking|Spanish|1|901|2077|0|1
+195|Phoenix, AZ|1|1|0|Playing sports|Programming|Learning new languages|Economics|1|1794|2071|1|0
+196|Chicago, IL|0|3|1|Singing|Playing board games|Horseback riding|Zoology|1|336|549|0|0
+197|Los Angeles, CA|1|3|2|Learning new languages|Yoga|Programming|Industrial and Systems Engineering|1|235|1368|1|1
+198|Chicago, IL|0|0|1|Volunteering|Traveling|Collecting stamps|Sociology|1|749|2429|0|1
+199|Chicago, IL|1|2|0|Playing musical instruments|Writing|Programming|Astronomy|1|1179|2762|0|1
