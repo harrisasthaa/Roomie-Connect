@@ -14,6 +14,7 @@ function FinderLayout(props) {
                     <Nav>
                         <Nav.Link as={Link} to="/profile" id="navElement">Profile</Nav.Link>
                         <Nav.Link as={Link} to="/discover" id="navElement">Discover</Nav.Link>
+                        <Nav.Link as={Link} to="/matches" id="navElement">Matches</Nav.Link>
                     </Nav>
                 </Container>
             </Container>
