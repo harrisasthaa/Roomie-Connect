@@ -1,10 +1,27 @@
 import sqlite3
 from flask import jsonify
+import pandas as pd
 
+def match_algorithm(user_data, df):
+    
+    return
 
 # algorithm 
-def find_matches():
-    pass
+def find_matches(user_data):
+    c = sqlite3.connect("../database/bunk.db")
+    if user_data['gender_p'] == 2:
+        df = pd.read_sql_query(f"SELECT * \
+                            FROM Compare\
+                            WHERE city_state='{user_data['city_state']}'", c)
+    else:
+        df = pd.read_sql_query(f"SELECT * \
+                                FROM Compare\
+                                WHERE city_state='{user_data['city_state']}'\
+                                AND gender={user_data['gender_p']}", c)
+
+    print(df)
+    c.close()
+    return match_algorithm(user_data, df)
 
 # old function
 def get_user():
@@ -45,7 +62,11 @@ def get_matches(user_id):
 def create_user(user_data):
     c = sqlite3.connect("../database/bunk.db").cursor()
     # insert basic data
-    c.execute("INSERT INTO Display ...")
+    
+    display_values
+    values = (user_data[key] for key in user_data.keys())
+    c.execute(f"INSERT INTO Display {tuple(user_data.keys())}\
+                VALUES ({values})")
     c.execute("INSERT INTO Compare ...")
     # find matches
     matches = find_matches(user_id)
