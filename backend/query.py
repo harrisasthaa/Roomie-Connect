@@ -70,14 +70,14 @@ def find_matches(user_data):
         df = pd.read_sql_query(f"SELECT * \
                             FROM Compare\
                             WHERE id!={user_data['id']}\
-                            city_state='{user_data['city_state']}'\
+                            AND city_state='{user_data['city_state']}'\
                             AND full_time='{user_data['full_time']}'", c)
         
     else:
         df = pd.read_sql_query(f"SELECT * \
                                 FROM Compare\
                                 WHERE id!={user_data['id']}\
-                                city_state='{user_data['city_state']}'\
+                                AND city_state='{user_data['city_state']}'\
                                 AND gender='{user_data['gender_p']}'\
                                 AND full_time='{user_data['full_time']}'", c)
     print(df)
