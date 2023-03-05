@@ -6,7 +6,8 @@ export default function DiscoverCard(props) {
      let imageURL; 
 
      function mapGender(gender) {
-          if (gender === 2) return "Non-binary";
+          if (gender === 3) return "Other";
+          else if (gender === 2) return "Non-binary";
           else if (gender === 1) return "Female";
           else return "Male";
      }
@@ -15,8 +16,8 @@ export default function DiscoverCard(props) {
           <div id="outerCard" className="card mx-3">
                <div className="row g-0 m-2">
                     <div className="col-md-4">
-                         <Row className="my-3">
-                              <img className="profilePic" src="https://media.istockphoto.com/id/639805094/photo/happy-man.jpg?s=612x612&w=0&k=20&c=REx0Usczge4a0soQvp7fQgGCcFMHeORGUTpOIPW-IYA="/>
+                         <Row className="mb-3 mt-1">
+                              <img className="img-fluid shadow-2-strong rounded-5" alt="Profile" src="https://media.istockphoto.com/id/639805094/photo/happy-man.jpg?s=612x612&w=0&k=20&c=REx0Usczge4a0soQvp7fQgGCcFMHeORGUTpOIPW-IYA="/>
                          </Row>
                          <Row>
                               <div className = "text-center">
@@ -35,7 +36,9 @@ export default function DiscoverCard(props) {
                               <p className="card-text"><small className="text-muted">${props.price_lower} - ${props.price_upper}</small></p>
                          </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="vr my-5"></div>
+                    <div className="card-body col-md-4 mx-3">
+                         <h2 className="card-title text-center">About Me</h2>
                          <p>{props.description}</p>
                     </div>
                </div>
