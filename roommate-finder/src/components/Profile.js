@@ -86,8 +86,8 @@ function Profile(props) {
     }
 
     return <div className="mx-3">
-        <h1 className="text-center mt-3">Profile Page</h1>
-        <Form>
+        <h1 className="text-center my-4">Profile</h1>
+        <Form className = "col-md-6 offset-md-3">
             <Form.Group className="mb-3">
                 <Form.Label htmlFor="first name">First Name</Form.Label>
                 <Form.Control id="first name" ref={firstName}></Form.Control>
@@ -214,7 +214,7 @@ function Profile(props) {
                 </Form.Select>
             </Form.Group>
         </Form>
-        <Button variant="primary" type="submit" onClick={updateUserData}>
+        <Button className="col-md-2 offset-md-5 mb-3" variant="primary" type="submit" onClick={updateUserData}>
             Update Profile
         </Button>
     </div>

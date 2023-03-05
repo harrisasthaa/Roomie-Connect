@@ -17,7 +17,7 @@ export default function DiscoverCard(props) {
                <div className="row g-0 m-2">
                     <div className="square col-md-3">
                          <Row className="m-4">
-                              <img className="img-fluid shadow-inner rounded-circle" alt="Profile" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80"/>
+                              <img className="img-fluid rounded-circle" alt="Profile" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw3NjA4Mjc3NHx8ZW58MHx8fHw%3D&w=1000&q=80"/>
                          </Row>
                          <Row>
                               <div className = "text-center">
