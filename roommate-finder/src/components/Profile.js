@@ -5,7 +5,6 @@ import {Form, Button} from 'react-bootstrap';
 
 function Profile(props) {
 
-    //const [userUpdate, setUserUpdate] = useState({});
 
     const universities = ['Harvard University',    'Massachusetts Institute of Technology (MIT)',    'Stanford University',    'California Institute of Technology (Caltech)',    'University of Cambridge',    'University of Oxford',    'ETH Zurich - Swiss Federal Institute of Technology',    'University of Chicago',    'Princeton University',    'Yale University',    'University of California, Berkeley (UCB)',    'Columbia University',    'University of California, Los Angeles (UCLA)',    'University of Michigan-Ann Arbor',    'University of Pennsylvania',    'Cornell University',    'Duke University',    'University of Toronto',    'University of Wisconsin-Madison',    'University of Tokyo'];
     const majors = [    'Accounting',    'Agricultural Business Management',    'Animal Sciences',    'Applied Mathematics',    'Art',    'Astronomy',    'Biochemistry',    'Biomedical Engineering',    'Chemical Engineering',    'Chemistry',    'Civil Engineering',    'Computer Engineering',    'Computer Science',    'Dance',    'Economics',    'Electrical Engineering',    'Elementary Education',    'English',    'Environmental Sciences',    'Finance',    'Genetics',    'Geography',    'Geology',    'History',    
@@ -34,6 +33,7 @@ function Profile(props) {
     const phone = useRef();
     const priceLower = useRef();
     const priceUpper = useRef();
+    const fullTime = useRef();
 
     const updateUserData = () => {
         if(!firstName.current.value || !lastName.current.value || !age.current.value || 
@@ -44,6 +44,7 @@ function Profile(props) {
             alert("Please fill out all fields");
         }
         else{
+            
             fetch('http://127.0.0.1:5000/createUser', {
             method: 'POST',
             headers: {
@@ -73,8 +74,14 @@ function Profile(props) {
                 "university" : university.current.value,
                 "email" : email.current.value,
                 "about_me" : aboutMe.current.value,
+                "full_time" : ["Internship", "Full-Time"].indexOf(fullTime.current.value)
             })
-            }).then(resp => resp.json());
+            }).then(resp => resp.json())
+            .then(resp => {
+                if(resp.status !== 200){
+                    alert("Update failed");
+                }
+            });
         }
     }
 
@@ -198,6 +205,14 @@ function Profile(props) {
                 <Form.Label htmlFor="priceUpper">Upper Price Range</Form.Label>
                 <Form.Control id="priceUpper" ref={priceUpper}></Form.Control>
             </Form.Group> 
+            <Form.Group className="mb-3">
+                <Form.Label htmlFor="fullTime">Time of Stay</Form.Label>
+                <Form.Select id="fullTime" ref={fullTime}>
+                <option></option>
+                <option>Internship</option>
+                <option>Full-Time</option>
+                </Form.Select>
+            </Form.Group>
         </Form>
         <Button variant="primary" type="submit" onClick={updateUserData}>
             Update Profile
