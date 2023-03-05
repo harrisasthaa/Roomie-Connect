@@ -7,38 +7,12 @@ import {Alert} from 'react-bootstrap';
 export default function Matches() {
 
     const [userEmail, setUserEmail] = useContext(UserContext);
-    
-    const [users, setUsers] = useState([
-        {id: 0,
-        first_name: "Chase",
-        last_name: "Mathis",
-        age: 20,
-        gender: 0,
-        university: "University of Wisconsin - Madison",
-        location: "New York City, New York",
-        price_lower: 1500,
-        price_upper: 2500,
-        description: "Hi everyone! I am looking for housing in the NYC area this summer",
-        phone_number: "763-657-6338"},
-        {
-        id: 1,
-        first_name: "Chris",
-        last_name: "Plagge",
-        gender: 0,
-        age: 21,
-        university: "University of Wisconsin - Madison",
-        location: "Madison, WI",
-        min_price: 1500,
-        max_price: 2500,
-        description: "HELJKEOEONGONSGONHGIONHIHNSOHNOHISHNIHHOSNHOHNHOI",
-        phone_number: "123-456-7890"}
-        ]);
 
-    //const [users, setUsers] = useState([]);
+    const [users, setUsers] = useState([]);
     
-    /*
+    
     useEffect(() => {
-        fetch('http://127.0.0.1:5000/request1', {
+        fetch(`http://127.0.0.1:5000/getMatches?email=${userEmail}`, {
             method: 'GET',
             headers: {
                 "Access-Control-Allow-Origin": "*",
@@ -49,9 +23,10 @@ export default function Matches() {
 
         }).then(resp => resp.json())
         .then(resp => {
+            console.log(resp);
             setUsers(resp);
         })
-    }, [])*/
+    }, [])
 
     const displayInfo = () => {
         if (true) {

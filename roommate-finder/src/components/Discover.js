@@ -7,30 +7,6 @@ import {Alert} from 'react-bootstrap';
 export default function Discover() {
 
     const [userEmail, setUserEmail] = useContext(UserContext);
-    /*
-    const [users, setUsers] = useState([
-        {id: 0,
-        first_name: "Chase",
-        last_name: "Mathis",
-        age: 20,
-        gender: 0,
-        university: "University of Wisconsin - Madison",
-        location: "Madison, WI",
-        price_lower: 1500,
-        price_upper: 2500,
-        description: "Hi everyone! I am looking for housing in the NYC area this summer"},
-        {
-        id: 1,
-        first_name: "Chris",
-        last_name: "Plagge",
-        gender: 0,
-        age: 21,
-        university: "University of Wisconsin - Madison",
-        location: "Madison, WI",
-        min_price: 1500,
-        max_price: 2500,
-        description: "HELJKEOEONGONSGONHGIONHIHNSOHNOHISHNIHHOSNHOHNHOI"}
-        ]);*/
 
     const [users, setUsers] = useState([]);
     
@@ -47,10 +23,9 @@ export default function Discover() {
 
         }).then(resp => resp.json())
         .then(resp => {
-            console.log(resp);
             setUsers(resp);
         })
-    }, [])
+    }, [users])
 
 
     const displayInfo = () => {
@@ -58,6 +33,7 @@ export default function Discover() {
             return users.map((u) => (
                 <DiscoverCard
                     key={u.id}
+                    id={u.id}
                     first_name={u.first_name}
                     last_name={u.last_name}
                     gender={u.gender}

@@ -44,7 +44,8 @@ function Profile(props) {
            !gender.current.value || !university.current.value || !email.current.value || !aboutMe.current.value
            || !interest1.current.value || !interest2.current.value || !interest3.current.value
             || !location.current.value || !major.current.value || !friendship.current.value
-            || !genderPref.current.value || !quiet.current.value || !quietPref.current.value || !phone.current.value){
+            || !genderPref.current.value || !quiet.current.value || !quietPref.current.value || !phone.current.value ||
+            !profPic.current.value){
             alert("Please fill out all fields");
         }
         else {
