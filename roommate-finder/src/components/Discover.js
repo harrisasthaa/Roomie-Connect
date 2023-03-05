@@ -26,7 +26,7 @@ export default function Discover() {
             console.log(resp);
             setUsers(resp);
         })
-    }, [])
+    }, [users])
 
 
     const displayInfo = () => {

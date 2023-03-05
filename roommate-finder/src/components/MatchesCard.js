@@ -15,7 +15,7 @@ export default function MatchesCard(props) {
                <div className="row g-0 m-2">
                     <div className="square col-md-3">
                          <Row className="m-4">
-                              <img className="img-fluid rounded-circle" alt="Profile" src={props.link_img}/>
+                              <img className="img-fluid rounded-circle" alt="Profile" src={props.img_link}/>
                          </Row>
                          <Row>
                               <div className="text-center">
