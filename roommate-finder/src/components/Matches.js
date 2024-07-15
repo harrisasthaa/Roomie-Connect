@@ -6,7 +6,7 @@ import {Alert} from 'react-bootstrap';
 
 export default function Matches() {
 
-    const [userEmail, setUserEmail] = useContext(UserContext);
+    const [userEmail] = useContext(UserContext);
 
     const [users, setUsers] = useState([]);
     
@@ -25,7 +25,7 @@ export default function Matches() {
         .then(resp => {
             setUsers(resp);
         })
-    }, [])
+    }, [userEmail])
 
     const displayInfo = () => {
         if (userEmail) {

@@ -5,7 +5,7 @@ import UserContext from './UserContext';
 
 export default function DiscoverCard(props) { 
 
-     const [userEmail, setUserEmail] = useContext(UserContext);
+     const [userEmail] = useContext(UserContext);
 
      function mapGender(gender) {
           if (gender === 3) return "Other";

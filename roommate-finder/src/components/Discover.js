@@ -6,7 +6,7 @@ import {Alert} from 'react-bootstrap';
 
 export default function Discover() {
 
-    const [userEmail, setUserEmail] = useContext(UserContext);
+    const [userEmail] = useContext(UserContext);
 
     const [users, setUsers] = useState([]);
     
@@ -25,7 +25,7 @@ export default function Discover() {
         .then(resp => {
             setUsers(resp);
         })
-    }, [users])
+    }, [userEmail, users])
 
 
     const displayInfo = () => {

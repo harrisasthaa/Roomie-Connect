@@ -1,4 +1,5 @@
 import sqlite3
+import time
 from flask import jsonify
 import pandas as pd
 import numpy
@@ -195,52 +196,75 @@ def create_user(user_data):
 
 def update_match(email1, id2, match_state):
     print("IN UPDATe_MaTch")
-    connection = sqlite3.connect("../database/bunk.db")
-    cursor = connection.cursor()
+    db_path = "../database/bunk.db"
+    retries = 5
+    delay = 0.1  # 100ms
 
-    # get user id
-    cursor.execute(f"SELECT id from Display WHERE email='{email1}' LIMIT 1")
-    id1 = cursor.fetchone()
-    #print(id1)
-    if id1:
-        id1 = id1[0]
+    for attempt in range(retries):
+        try:
+            connection = sqlite3.connect(db_path)
+            cursor = connection.cursor()
 
-    # get prev state
-    ## if first id - the one being updated 
-    cursor.execute(f"SELECT match FROM Matches WHERE (first_id={id1} AND second_id={id2})")
-    match = cursor.fetchone()
-    #print("MATCH")
-    #print(match)
-    if match:
-        match = match[0]
-        first = True
-    else:
-        cursor.execute(f"SELECT match FROM Matches WHERE (first_id={id2} AND second_id={id1})")
-        match = cursor.fetchone()
-        if match:
-            match=match[0]
-        else:
-            return "No Match Found"
-    
-    
-    if (match == 1 or match == 2) and match_state == 1:
-        match = 3
-    elif match == 0 and match_state == 1:
-        if first:
-            ## first id 
-            match = 1
-        else:
-            ##second id 
-            match = 2
-    elif match_state == 0:
-        match = 4
+            # Get user id
+            cursor.execute("SELECT id FROM Display WHERE email=? LIMIT 1", (email1,))
+            id1 = cursor.fetchone()
+            if id1:
+                id1 = id1[0]
 
-    if first:
-        print(f"UPDATE Matches SET match={match} WHERE first_id={id1} AND second_id={id2}")
-        cursor.execute(f"UPDATE Matches SET match={match} WHERE first_id={id1} AND second_id={id2}")
-    else:
-        print(f"UPDATE Matches SET match={match} WHERE first_id={id2} AND second_id={id1}")
-        cursor.execute(f"UPDATE Matches SET match={match} WHERE first_id={id2} AND second_id={id1}")
-    connection.commit()
-    connection.close()
-    return "Match updated probably"
+                # Get previous state
+                cursor.execute("SELECT match FROM Matches WHERE first_id=? AND second_id=?", (id1, id2))
+                match = cursor.fetchone()
+                first = False
+
+                if match:
+                    match = match[0]
+                    first = True
+                else:
+                    cursor.execute("SELECT match FROM Matches WHERE first_id=? AND second_id=?", (id2, id1))
+                    match = cursor.fetchone()
+                    if match:
+                        match = match[0]
+                    else:
+                        cursor.close()
+                        connection.close()
+                        return "No Match Found"
+
+                # Determine new match state
+                if (match == 1 or match == 2) and match_state == 1:
+                    match = 3
+                elif match == 0 and match_state == 1:
+                    match = 1 if first else 2
+                elif match_state == 0:
+                    match = 4
+
+                # Update match state
+                if first:
+                    print(f"UPDATE Matches SET match={match} WHERE first_id={id1} AND second_id={id2}")
+                    cursor.execute("UPDATE Matches SET match=? WHERE first_id=? AND second_id=?", (match, id1, id2))
+                else:
+                    print(f"UPDATE Matches SET match={match} WHERE first_id={id2} AND second_id={id1}")
+                    cursor.execute("UPDATE Matches SET match=? WHERE first_id=? AND second_id=?", (match, id2, id1))
+
+                connection.commit()
+
+            cursor.close()
+            connection.close()
+            return "Match updated probably"
+        
+        except sqlite3.OperationalError as e:
+            if "database is locked" in str(e):
+                time.sleep(delay)
+                delay *= 2  # Exponential backoff
+            else:
+                raise
+        finally:
+            try:
+                cursor.close()
+            except:
+                pass
+            try:
+                connection.close()
+            except:
+                pass
+
+    return "Database is locked. Please try again later."
